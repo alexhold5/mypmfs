@@ -1,0 +1,466 @@
+HEADER    DE NOVO PROTEIN                         13-NOV-16   5TWI              
+TITLE     ALPHA HELIX NUCLEATION BY A SIMPLE CYCLIC TETRAPEPTIDE                
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: CYCLIC TETRAPEPTIDE ALA-ARG-ALA-UN1;                       
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 ORGANISM_SCIENTIFIC: CHEIROGALEUS MAJOR;                             
+SOURCE   4 ORGANISM_TAXID: 47177                                                
+KEYWDS    ALPHA TURN, HELIX CAP, DE NOVO PROTEIN                                
+EXPDTA    SOLUTION NMR                                                          
+NUMMDL    5                                                                     
+AUTHOR    H.N.HOANG,D.P.FAIRLIE                                                 
+REVDAT   3   15-NOV-23 5TWI    1       LINK   ATOM                              
+REVDAT   2   06-NOV-19 5TWI    1       COMPND REMARK                            
+REVDAT   1   14-DEC-16 5TWI    0                                                
+JRNL        AUTH   H.N.HOANG,D.P.FAIRLIE                                        
+JRNL        TITL   ALPHA HELIX NUCLEATION BY A SIMPLE CYCLIC TETRAPEPTIDE       
+JRNL        REF    TO BE PUBLISHED                                              
+JRNL        REFN                                                                
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : XPLOR                                                
+REMARK   3   AUTHORS     : XPLOR-NIH                                            
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
+REMARK   4                                                                      
+REMARK   4 5TWI COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-NOV-16.                  
+REMARK 100 THE DEPOSITION ID IS D_1000224930.                                   
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 298                                
+REMARK 210  PH                             : 6                                  
+REMARK 210  IONIC STRENGTH                 : 100                                
+REMARK 210  PRESSURE                       : 1 ATM                              
+REMARK 210  SAMPLE CONTENTS                : 1 MM N HELIX CAP, 93% H2O/7% D2O   
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : 2D 1H-1H ROESY                     
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 600 MHZ                            
+REMARK 210  SPECTROMETER MODEL             : AVANCE III                         
+REMARK 210  SPECTROMETER MANUFACTURER      : BRUKER                             
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : TOPSPIN                            
+REMARK 210   METHOD USED                   : SIMULATED ANNEALING                
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 50                                 
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 5                                  
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST         
+REMARK 210                                   ENERGY                             
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
+REMARK 210                                                                      
+REMARK 210 REMARK: NULL                                                         
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 900                                                                      
+REMARK 900 RELATED ENTRIES                                                      
+REMARK 900 RELATED ID: 30202   RELATED DB: BMRB                                 
+REMARK 900 ALPHA HELIX NUCLEATION BY A SIMPLE CYCLIC TETRAPEPTIDE               
+DBREF  5TWI A    1     5  PDB    5TWI     5TWI             1      5             
+SEQRES   1 A    5  ALA ARG ALA UN1 NH2                                          
+HET    UN1  A   4      17                                                       
+HET    NH2  A   5       3                                                       
+HETNAM     UN1 2-AMINOHEXANEDIOIC ACID                                          
+HETNAM     NH2 AMINO GROUP                                                      
+FORMUL   1  UN1    C6 H11 N O4                                                  
+FORMUL   1  NH2    H2 N                                                         
+LINK         N   ALA A   1                 C1' UN1 A   4     1555   1555  1.33  
+LINK         C   ALA A   3                 N   UN1 A   4     1555   1555  1.33  
+LINK         C   UN1 A   4                 N   NH2 A   5     1555   1555  1.34  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+MODEL        1                                                                  
+ATOM      1  N   ALA A   1     -24.438 -49.996 -37.861  1.00  0.00           N  
+ATOM      2  CA  ALA A   1     -25.071 -51.257 -38.252  1.00  0.00           C  
+ATOM      3  C   ALA A   1     -24.988 -52.300 -37.129  1.00  0.00           C  
+ATOM      4  O   ALA A   1     -25.834 -52.319 -36.228  1.00  0.00           O  
+ATOM      5  CB  ALA A   1     -24.452 -51.783 -39.543  1.00  0.00           C  
+ATOM      6  H   ALA A   1     -23.684 -49.655 -38.387  1.00  0.00           H  
+ATOM      7  HA  ALA A   1     -26.114 -51.049 -38.447  1.00  0.00           H  
+ATOM      8  HB1 ALA A   1     -24.796 -51.188 -40.375  1.00  0.00           H  
+ATOM      9  HB2 ALA A   1     -24.747 -52.812 -39.691  1.00  0.00           H  
+ATOM     10  HB3 ALA A   1     -23.376 -51.723 -39.477  1.00  0.00           H  
+ATOM     11  N   ARG A   2     -23.974 -53.167 -37.186  1.00  0.00           N  
+ATOM     12  CA  ARG A   2     -23.794 -54.204 -36.172  1.00  0.00           C  
+ATOM     13  C   ARG A   2     -23.357 -53.600 -34.836  1.00  0.00           C  
+ATOM     14  O   ARG A   2     -23.780 -54.060 -33.774  1.00  0.00           O  
+ATOM     15  CB  ARG A   2     -22.779 -55.266 -36.635  1.00  0.00           C  
+ATOM     16  CG  ARG A   2     -21.317 -54.820 -36.619  1.00  0.00           C  
+ATOM     17  CD  ARG A   2     -21.006 -53.787 -37.696  1.00  0.00           C  
+ATOM     18  NE  ARG A   2     -21.311 -54.276 -39.043  1.00  0.00           N  
+ATOM     19  CZ  ARG A   2     -20.651 -55.267 -39.653  1.00  0.00           C  
+ATOM     20  NH1 ARG A   2     -19.612 -55.855 -39.065  1.00  0.00           N  
+ATOM     21  NH2 ARG A   2     -21.026 -55.661 -40.866  1.00  0.00           N  
+ATOM     22  H   ARG A   2     -23.338 -53.108 -37.924  1.00  0.00           H  
+ATOM     23  HA  ARG A   2     -24.752 -54.683 -36.029  1.00  0.00           H  
+ATOM     24  HB2 ARG A   2     -22.869 -56.129 -35.992  1.00  0.00           H  
+ATOM     25  HB3 ARG A   2     -23.028 -55.561 -37.644  1.00  0.00           H  
+ATOM     26  HG2 ARG A   2     -21.095 -54.389 -35.654  1.00  0.00           H  
+ATOM     27  HG3 ARG A   2     -20.690 -55.686 -36.774  1.00  0.00           H  
+ATOM     28  HD2 ARG A   2     -21.588 -52.899 -37.506  1.00  0.00           H  
+ATOM     29  HD3 ARG A   2     -19.956 -53.541 -37.644  1.00  0.00           H  
+ATOM     30  HE  ARG A   2     -22.056 -53.850 -39.517  1.00  0.00           H  
+ATOM     31 HH11 ARG A   2     -19.313 -55.560 -38.159  1.00  0.00           H  
+ATOM     32 HH12 ARG A   2     -19.128 -56.597 -39.532  1.00  0.00           H  
+ATOM     33 HH21 ARG A   2     -21.799 -55.218 -41.320  1.00  0.00           H  
+ATOM     34 HH22 ARG A   2     -20.536 -56.402 -41.326  1.00  0.00           H  
+ATOM     35  N   ALA A   3     -22.501 -52.575 -34.895  1.00  0.00           N  
+ATOM     36  CA  ALA A   3     -22.001 -51.920 -33.688  1.00  0.00           C  
+ATOM     37  C   ALA A   3     -23.044 -51.014 -33.049  1.00  0.00           C  
+ATOM     38  O   ALA A   3     -23.177 -50.989 -31.824  1.00  0.00           O  
+ATOM     39  CB  ALA A   3     -20.726 -51.144 -33.988  1.00  0.00           C  
+ATOM     40  H   ALA A   3     -22.195 -52.257 -35.769  1.00  0.00           H  
+ATOM     41  HA  ALA A   3     -21.763 -52.696 -32.983  1.00  0.00           H  
+ATOM     42  HB1 ALA A   3     -20.001 -51.804 -34.440  1.00  0.00           H  
+ATOM     43  HB2 ALA A   3     -20.325 -50.742 -33.070  1.00  0.00           H  
+ATOM     44  HB3 ALA A   3     -20.949 -50.335 -34.668  1.00  0.00           H  
+HETATM   45  C1' UN1 A   4     -24.874 -49.292 -36.816  1.00  0.00           C  
+HETATM   46  O1' UN1 A   4     -25.823 -49.651 -36.129  1.00  0.00           O  
+HETATM   47  O   UN1 A   4     -27.256 -49.506 -33.498  1.00  0.00           O  
+HETATM   48  C1  UN1 A   4     -24.152 -47.988 -36.518  1.00  0.00           C  
+HETATM   49  C   UN1 A   4     -26.198 -50.136 -33.532  1.00  0.00           C  
+HETATM   50  CA  UN1 A   4     -24.855 -49.431 -33.363  1.00  0.00           C  
+HETATM   51  C5  UN1 A   4     -24.853 -48.064 -34.081  1.00  0.00           C  
+HETATM   52  C6  UN1 A   4     -23.699 -47.859 -35.066  1.00  0.00           C  
+HETATM   53  N   UN1 A   4     -23.806 -50.298 -33.872  1.00  0.00           N  
+HETATM   54 H1C1 UN1 A   4     -23.282 -47.923 -37.156  1.00  0.00           H  
+HETATM   55 H1C2 UN1 A   4     -24.819 -47.170 -36.744  1.00  0.00           H  
+HETATM   56  HA  UN1 A   4     -24.675 -49.277 -32.309  1.00  0.00           H  
+HETATM   57 H5C1 UN1 A   4     -24.797 -47.285 -33.334  1.00  0.00           H  
+HETATM   58 H5C2 UN1 A   4     -25.779 -47.956 -34.624  1.00  0.00           H  
+HETATM   59 H6C1 UN1 A   4     -22.933 -48.593 -34.871  1.00  0.00           H  
+HETATM   60 H6C2 UN1 A   4     -23.291 -46.870 -34.919  1.00  0.00           H  
+HETATM   61  H   UN1 A   4     -23.688 -50.382 -34.842  1.00  0.00           H  
+HETATM   62  N   NH2 A   5     -26.141 -51.449 -33.784  1.00  0.00           N  
+HETATM   63  HN1 NH2 A   5     -25.268 -51.886 -33.790  1.00  0.00           H  
+HETATM   64  HN2 NH2 A   5     -26.962 -51.918 -33.977  1.00  0.00           H  
+TER      65      NH2 A   5                                                      
+ENDMDL                                                                          
+MODEL        2                                                                  
+ATOM      1  N   ALA A   1     -24.486 -49.756 -37.739  1.00  0.00           N  
+ATOM      2  CA  ALA A   1     -25.101 -51.005 -38.196  1.00  0.00           C  
+ATOM      3  C   ALA A   1     -25.015 -52.102 -37.128  1.00  0.00           C  
+ATOM      4  O   ALA A   1     -25.905 -52.222 -36.278  1.00  0.00           O  
+ATOM      5  CB  ALA A   1     -24.467 -51.461 -39.505  1.00  0.00           C  
+ATOM      6  H   ALA A   1     -23.744 -49.372 -38.254  1.00  0.00           H  
+ATOM      7  HA  ALA A   1     -26.144 -50.800 -38.389  1.00  0.00           H  
+ATOM      8  HB1 ALA A   1     -24.732 -52.491 -39.695  1.00  0.00           H  
+ATOM      9  HB2 ALA A   1     -23.393 -51.373 -39.436  1.00  0.00           H  
+ATOM     10  HB3 ALA A   1     -24.827 -50.842 -40.314  1.00  0.00           H  
+ATOM     11  N   ARG A   2     -23.945 -52.900 -37.174  1.00  0.00           N  
+ATOM     12  CA  ARG A   2     -23.751 -53.981 -36.210  1.00  0.00           C  
+ATOM     13  C   ARG A   2     -23.346 -53.434 -34.841  1.00  0.00           C  
+ATOM     14  O   ARG A   2     -23.807 -53.926 -33.810  1.00  0.00           O  
+ATOM     15  CB  ARG A   2     -22.698 -54.976 -36.717  1.00  0.00           C  
+ATOM     16  CG  ARG A   2     -21.323 -54.363 -36.946  1.00  0.00           C  
+ATOM     17  CD  ARG A   2     -20.331 -55.396 -37.459  1.00  0.00           C  
+ATOM     18  NE  ARG A   2     -19.003 -54.822 -37.682  1.00  0.00           N  
+ATOM     19  CZ  ARG A   2     -17.954 -55.516 -38.130  1.00  0.00           C  
+ATOM     20  NH1 ARG A   2     -18.069 -56.813 -38.406  1.00  0.00           N  
+ATOM     21  NH2 ARG A   2     -16.784 -54.910 -38.304  1.00  0.00           N  
+ATOM     22  H   ARG A   2     -23.271 -52.757 -37.870  1.00  0.00           H  
+ATOM     23  HA  ARG A   2     -24.694 -54.498 -36.107  1.00  0.00           H  
+ATOM     24  HB2 ARG A   2     -22.595 -55.771 -35.993  1.00  0.00           H  
+ATOM     25  HB3 ARG A   2     -23.040 -55.397 -37.651  1.00  0.00           H  
+ATOM     26  HG2 ARG A   2     -21.409 -53.570 -37.674  1.00  0.00           H  
+ATOM     27  HG3 ARG A   2     -20.959 -53.960 -36.013  1.00  0.00           H  
+ATOM     28  HD2 ARG A   2     -20.250 -56.190 -36.731  1.00  0.00           H  
+ATOM     29  HD3 ARG A   2     -20.700 -55.799 -38.391  1.00  0.00           H  
+ATOM     30  HE  ARG A   2     -18.886 -53.868 -37.488  1.00  0.00           H  
+ATOM     31 HH11 ARG A   2     -18.945 -57.278 -38.279  1.00  0.00           H  
+ATOM     32 HH12 ARG A   2     -17.277 -57.325 -38.741  1.00  0.00           H  
+ATOM     33 HH21 ARG A   2     -16.690 -53.936 -38.099  1.00  0.00           H  
+ATOM     34 HH22 ARG A   2     -15.997 -55.428 -38.639  1.00  0.00           H  
+ATOM     35  N   ALA A   3     -22.476 -52.421 -34.839  1.00  0.00           N  
+ATOM     36  CA  ALA A   3     -22.003 -51.817 -33.596  1.00  0.00           C  
+ATOM     37  C   ALA A   3     -23.073 -50.962 -32.931  1.00  0.00           C  
+ATOM     38  O   ALA A   3     -23.220 -50.992 -31.708  1.00  0.00           O  
+ATOM     39  CB  ALA A   3     -20.740 -51.004 -33.839  1.00  0.00           C  
+ATOM     40  H   ALA A   3     -22.140 -52.076 -35.693  1.00  0.00           H  
+ATOM     41  HA  ALA A   3     -21.762 -52.621 -32.925  1.00  0.00           H  
+ATOM     42  HB1 ALA A   3     -19.988 -51.633 -34.292  1.00  0.00           H  
+ATOM     43  HB2 ALA A   3     -20.370 -50.622 -32.899  1.00  0.00           H  
+ATOM     44  HB3 ALA A   3     -20.964 -50.179 -34.500  1.00  0.00           H  
+HETATM   45  C1' UN1 A   4     -24.923 -49.120 -36.653  1.00  0.00           C  
+HETATM   46  O1' UN1 A   4     -25.859 -49.534 -35.979  1.00  0.00           O  
+HETATM   47  O   UN1 A   4     -27.317 -49.546 -33.313  1.00  0.00           O  
+HETATM   48  C1  UN1 A   4     -24.222 -47.819 -36.290  1.00  0.00           C  
+HETATM   49  C   UN1 A   4     -26.243 -50.139 -33.415  1.00  0.00           C  
+HETATM   50  CA  UN1 A   4     -24.917 -49.410 -33.202  1.00  0.00           C  
+HETATM   51  C5  UN1 A   4     -24.939 -48.015 -33.864  1.00  0.00           C  
+HETATM   52  C6  UN1 A   4     -23.782 -47.748 -34.830  1.00  0.00           C  
+HETATM   53  N   UN1 A   4     -23.842 -50.230 -33.732  1.00  0.00           N  
+HETATM   54 H1C1 UN1 A   4     -23.349 -47.713 -36.917  1.00  0.00           H  
+HETATM   55 H1C2 UN1 A   4     -24.900 -47.003 -36.485  1.00  0.00           H  
+HETATM   56  HA  UN1 A   4     -24.753 -49.295 -32.140  1.00  0.00           H  
+HETATM   57 H5C1 UN1 A   4     -24.905 -47.266 -33.086  1.00  0.00           H  
+HETATM   58 H5C2 UN1 A   4     -25.863 -47.905 -34.410  1.00  0.00           H  
+HETATM   59 H6C1 UN1 A   4     -23.004 -48.478 -34.662  1.00  0.00           H  
+HETATM   60 H6C2 UN1 A   4     -23.391 -46.760 -34.636  1.00  0.00           H  
+HETATM   61  H   UN1 A   4     -23.713 -50.271 -34.704  1.00  0.00           H  
+HETATM   62  N   NH2 A   5     -26.153 -51.426 -33.774  1.00  0.00           N  
+HETATM   63  HN1 NH2 A   5     -25.268 -51.835 -33.831  1.00  0.00           H  
+HETATM   64  HN2 NH2 A   5     -26.964 -51.903 -33.987  1.00  0.00           H  
+TER      65      NH2 A   5                                                      
+ENDMDL                                                                          
+MODEL        3                                                                  
+ATOM      1  N   ALA A   1     -24.518 -49.369 -37.613  1.00  0.00           N  
+ATOM      2  CA  ALA A   1     -25.214 -50.480 -38.266  1.00  0.00           C  
+ATOM      3  C   ALA A   1     -25.172 -51.754 -37.413  1.00  0.00           C  
+ATOM      4  O   ALA A   1     -26.067 -51.990 -36.593  1.00  0.00           O  
+ATOM      5  CB  ALA A   1     -24.632 -50.730 -39.653  1.00  0.00           C  
+ATOM      6  H   ALA A   1     -23.766 -48.939 -38.073  1.00  0.00           H  
+ATOM      7  HA  ALA A   1     -26.247 -50.188 -38.390  1.00  0.00           H  
+ATOM      8  HB1 ALA A   1     -23.554 -50.708 -39.601  1.00  0.00           H  
+ATOM      9  HB2 ALA A   1     -24.975 -49.962 -40.331  1.00  0.00           H  
+ATOM     10  HB3 ALA A   1     -24.956 -51.696 -40.011  1.00  0.00           H  
+ATOM     11  N   ARG A   2     -24.134 -52.570 -37.608  1.00  0.00           N  
+ATOM     12  CA  ARG A   2     -23.981 -53.813 -36.857  1.00  0.00           C  
+ATOM     13  C   ARG A   2     -23.548 -53.533 -35.418  1.00  0.00           C  
+ATOM     14  O   ARG A   2     -24.063 -54.143 -34.479  1.00  0.00           O  
+ATOM     15  CB  ARG A   2     -22.962 -54.728 -37.545  1.00  0.00           C  
+ATOM     16  CG  ARG A   2     -22.782 -56.072 -36.856  1.00  0.00           C  
+ATOM     17  CD  ARG A   2     -21.765 -56.939 -37.583  1.00  0.00           C  
+ATOM     18  NE  ARG A   2     -21.579 -58.236 -36.931  1.00  0.00           N  
+ATOM     19  CZ  ARG A   2     -20.743 -59.180 -37.369  1.00  0.00           C  
+ATOM     20  NH1 ARG A   2     -20.009 -58.980 -38.462  1.00  0.00           N  
+ATOM     21  NH2 ARG A   2     -20.639 -60.331 -36.712  1.00  0.00           N  
+ATOM     22  H   ARG A   2     -23.454 -52.329 -38.270  1.00  0.00           H  
+ATOM     23  HA  ARG A   2     -24.941 -54.308 -36.840  1.00  0.00           H  
+ATOM     24  HB2 ARG A   2     -23.287 -54.908 -38.559  1.00  0.00           H  
+ATOM     25  HB3 ARG A   2     -22.005 -54.228 -37.567  1.00  0.00           H  
+ATOM     26  HG2 ARG A   2     -22.440 -55.905 -35.846  1.00  0.00           H  
+ATOM     27  HG3 ARG A   2     -23.732 -56.586 -36.837  1.00  0.00           H  
+ATOM     28  HD2 ARG A   2     -22.107 -57.101 -38.594  1.00  0.00           H  
+ATOM     29  HD3 ARG A   2     -20.818 -56.418 -37.603  1.00  0.00           H  
+ATOM     30  HE  ARG A   2     -22.106 -58.415 -36.123  1.00  0.00           H  
+ATOM     31 HH11 ARG A   2     -20.079 -58.118 -38.963  1.00  0.00           H  
+ATOM     32 HH12 ARG A   2     -19.385 -59.693 -38.782  1.00  0.00           H  
+ATOM     33 HH21 ARG A   2     -21.188 -60.489 -35.890  1.00  0.00           H  
+ATOM     34 HH22 ARG A   2     -20.014 -61.040 -37.038  1.00  0.00           H  
+ATOM     35  N   ALA A   3     -22.592 -52.616 -35.254  1.00  0.00           N  
+ATOM     36  CA  ALA A   3     -22.081 -52.265 -33.932  1.00  0.00           C  
+ATOM     37  C   ALA A   3     -23.098 -51.484 -33.110  1.00  0.00           C  
+ATOM     38  O   ALA A   3     -23.236 -51.719 -31.909  1.00  0.00           O  
+ATOM     39  CB  ALA A   3     -20.775 -51.491 -34.048  1.00  0.00           C  
+ATOM     40  H   ALA A   3     -22.217 -52.171 -36.044  1.00  0.00           H  
+ATOM     41  HA  ALA A   3     -21.880 -53.186 -33.416  1.00  0.00           H  
+ATOM     42  HB1 ALA A   3     -20.385 -51.293 -33.060  1.00  0.00           H  
+ATOM     43  HB2 ALA A   3     -20.955 -50.555 -34.557  1.00  0.00           H  
+ATOM     44  HB3 ALA A   3     -20.060 -52.074 -34.608  1.00  0.00           H  
+HETATM   45  C1' UN1 A   4     -24.896 -48.916 -36.418  1.00  0.00           C  
+HETATM   46  O1' UN1 A   4     -25.840 -49.394 -35.801  1.00  0.00           O  
+HETATM   47  O   UN1 A   4     -27.261 -49.807 -33.150  1.00  0.00           O  
+HETATM   48  C1  UN1 A   4     -24.114 -47.742 -35.850  1.00  0.00           C  
+HETATM   49  C   UN1 A   4     -26.222 -50.424 -33.385  1.00  0.00           C  
+HETATM   50  CA  UN1 A   4     -24.856 -49.814 -33.073  1.00  0.00           C  
+HETATM   51  C5  UN1 A   4     -24.806 -48.326 -33.480  1.00  0.00           C  
+HETATM   52  C6  UN1 A   4     -23.650 -47.955 -34.411  1.00  0.00           C  
+HETATM   53  N   UN1 A   4     -23.832 -50.583 -33.758  1.00  0.00           N  
+HETATM   54 H1C1 UN1 A   4     -23.245 -47.575 -36.470  1.00  0.00           H  
+HETATM   55 H1C2 UN1 A   4     -24.746 -46.867 -35.882  1.00  0.00           H  
+HETATM   56  HA  UN1 A   4     -24.676 -49.896 -32.010  1.00  0.00           H  
+HETATM   57 H5C1 UN1 A   4     -24.719 -47.729 -32.584  1.00  0.00           H  
+HETATM   58 H5C2 UN1 A   4     -25.731 -48.071 -33.975  1.00  0.00           H  
+HETATM   59 H6C1 UN1 A   4     -22.914 -48.744 -34.394  1.00  0.00           H  
+HETATM   60 H6C2 UN1 A   4     -23.200 -47.040 -34.056  1.00  0.00           H  
+HETATM   61  H   UN1 A   4     -23.714 -50.460 -34.724  1.00  0.00           H  
+HETATM   62  N   NH2 A   5     -26.207 -51.627 -33.974  1.00  0.00           N  
+HETATM   63  HN1 NH2 A   5     -25.345 -52.062 -34.126  1.00  0.00           H  
+HETATM   64  HN2 NH2 A   5     -27.045 -52.017 -34.249  1.00  0.00           H  
+TER      65      NH2 A   5                                                      
+ENDMDL                                                                          
+MODEL        4                                                                  
+ATOM      1  N   ALA A   1     -24.776 -49.538 -37.632  1.00  0.00           N  
+ATOM      2  CA  ALA A   1     -25.336 -50.778 -38.173  1.00  0.00           C  
+ATOM      3  C   ALA A   1     -25.087 -51.967 -37.240  1.00  0.00           C  
+ATOM      4  O   ALA A   1     -25.937 -52.301 -36.407  1.00  0.00           O  
+ATOM      5  CB  ALA A   1     -24.778 -51.051 -39.566  1.00  0.00           C  
+ATOM      6  H   ALA A   1     -24.095 -49.056 -38.147  1.00  0.00           H  
+ATOM      7  HA  ALA A   1     -26.402 -50.638 -38.267  1.00  0.00           H  
+ATOM      8  HB1 ALA A   1     -23.711 -50.880 -39.567  1.00  0.00           H  
+ATOM      9  HB2 ALA A   1     -25.249 -50.388 -40.277  1.00  0.00           H  
+ATOM     10  HB3 ALA A   1     -24.978 -52.076 -39.841  1.00  0.00           H  
+ATOM     11  N   ARG A   2     -23.926 -52.602 -37.385  1.00  0.00           N  
+ATOM     12  CA  ARG A   2     -23.567 -53.754 -36.562  1.00  0.00           C  
+ATOM     13  C   ARG A   2     -23.176 -53.328 -35.148  1.00  0.00           C  
+ATOM     14  O   ARG A   2     -23.595 -53.948 -34.169  1.00  0.00           O  
+ATOM     15  CB  ARG A   2     -22.418 -54.525 -37.216  1.00  0.00           C  
+ATOM     16  CG  ARG A   2     -22.793 -55.155 -38.549  1.00  0.00           C  
+ATOM     17  CD  ARG A   2     -21.560 -55.577 -39.336  1.00  0.00           C  
+ATOM     18  NE  ARG A   2     -20.762 -54.425 -39.764  1.00  0.00           N  
+ATOM     19  CZ  ARG A   2     -21.191 -53.488 -40.618  1.00  0.00           C  
+ATOM     20  NH1 ARG A   2     -22.391 -53.585 -41.185  1.00  0.00           N  
+ATOM     21  NH2 ARG A   2     -20.408 -52.456 -40.915  1.00  0.00           N  
+ATOM     22  H   ARG A   2     -23.293 -52.289 -38.065  1.00  0.00           H  
+ATOM     23  HA  ARG A   2     -24.430 -54.400 -36.503  1.00  0.00           H  
+ATOM     24  HB2 ARG A   2     -21.593 -53.847 -37.380  1.00  0.00           H  
+ATOM     25  HB3 ARG A   2     -22.100 -55.310 -36.547  1.00  0.00           H  
+ATOM     26  HG2 ARG A   2     -23.406 -56.025 -38.366  1.00  0.00           H  
+ATOM     27  HG3 ARG A   2     -23.352 -54.435 -39.129  1.00  0.00           H  
+ATOM     28  HD2 ARG A   2     -20.950 -56.211 -38.710  1.00  0.00           H  
+ATOM     29  HD3 ARG A   2     -21.876 -56.130 -40.209  1.00  0.00           H  
+ATOM     30  HE  ARG A   2     -19.864 -54.336 -39.383  1.00  0.00           H  
+ATOM     31 HH11 ARG A   2     -22.984 -54.362 -40.978  1.00  0.00           H  
+ATOM     32 HH12 ARG A   2     -22.703 -52.876 -41.818  1.00  0.00           H  
+ATOM     33 HH21 ARG A   2     -19.501 -52.380 -40.502  1.00  0.00           H  
+ATOM     34 HH22 ARG A   2     -20.727 -51.755 -41.554  1.00  0.00           H  
+ATOM     35  N   ALA A   3     -22.366 -52.275 -35.050  1.00  0.00           N  
+ATOM     36  CA  ALA A   3     -21.911 -51.776 -33.755  1.00  0.00           C  
+ATOM     37  C   ALA A   3     -23.017 -51.066 -32.989  1.00  0.00           C  
+ATOM     38  O   ALA A   3     -23.125 -51.221 -31.771  1.00  0.00           O  
+ATOM     39  CB  ALA A   3     -20.704 -50.865 -33.925  1.00  0.00           C  
+ATOM     40  H   ALA A   3     -22.061 -51.827 -35.867  1.00  0.00           H  
+ATOM     41  HA  ALA A   3     -21.608 -52.630 -33.178  1.00  0.00           H  
+ATOM     42  HB1 ALA A   3     -19.876 -51.434 -34.322  1.00  0.00           H  
+ATOM     43  HB2 ALA A   3     -20.428 -50.450 -32.966  1.00  0.00           H  
+ATOM     44  HB3 ALA A   3     -20.949 -50.064 -34.606  1.00  0.00           H  
+HETATM   45  C1' UN1 A   4     -25.187 -49.038 -36.468  1.00  0.00           C  
+HETATM   46  O1' UN1 A   4     -26.050 -49.578 -35.788  1.00  0.00           O  
+HETATM   47  O   UN1 A   4     -27.354 -49.926 -33.094  1.00  0.00           O  
+HETATM   48  C1  UN1 A   4     -24.553 -47.730 -36.023  1.00  0.00           C  
+HETATM   49  C   UN1 A   4     -26.249 -50.421 -33.315  1.00  0.00           C  
+HETATM   50  CA  UN1 A   4     -24.966 -49.629 -33.064  1.00  0.00           C  
+HETATM   51  C5  UN1 A   4     -25.094 -48.180 -33.581  1.00  0.00           C  
+HETATM   52  C6  UN1 A   4     -24.021 -47.760 -34.592  1.00  0.00           C  
+HETATM   53  N   UN1 A   4     -23.858 -50.318 -33.698  1.00  0.00           N  
+HETATM   54 H1C1 UN1 A   4     -23.733 -47.502 -36.688  1.00  0.00           H  
+HETATM   55 H1C2 UN1 A   4     -25.297 -46.951 -36.097  1.00  0.00           H  
+HETATM   56  HA  UN1 A   4     -24.776 -49.608 -32.000  1.00  0.00           H  
+HETATM   57 H5C1 UN1 A   4     -25.037 -47.509 -32.736  1.00  0.00           H  
+HETATM   58 H5C2 UN1 A   4     -26.058 -48.063 -34.050  1.00  0.00           H  
+HETATM   59 H6C1 UN1 A   4     -23.194 -48.452 -34.539  1.00  0.00           H  
+HETATM   60 H6C2 UN1 A   4     -23.674 -46.770 -34.334  1.00  0.00           H  
+HETATM   61  H   UN1 A   4     -23.757 -50.257 -34.672  1.00  0.00           H  
+HETATM   62  N   NH2 A   5     -26.092 -51.644 -33.838  1.00  0.00           N  
+HETATM   63  HN1 NH2 A   5     -25.186 -51.976 -33.983  1.00  0.00           H  
+HETATM   64  HN2 NH2 A   5     -26.879 -52.150 -34.075  1.00  0.00           H  
+TER      65      NH2 A   5                                                      
+ENDMDL                                                                          
+MODEL        5                                                                  
+ATOM      1  N   ALA A   1     -24.372 -49.813 -37.778  1.00  0.00           N  
+ATOM      2  CA  ALA A   1     -24.828 -51.084 -38.346  1.00  0.00           C  
+ATOM      3  C   ALA A   1     -24.711 -52.231 -37.337  1.00  0.00           C  
+ATOM      4  O   ALA A   1     -25.668 -52.530 -36.611  1.00  0.00           O  
+ATOM      5  CB  ALA A   1     -24.060 -51.400 -39.624  1.00  0.00           C  
+ATOM      6  H   ALA A   1     -23.638 -49.330 -38.213  1.00  0.00           H  
+ATOM      7  HA  ALA A   1     -25.869 -50.966 -38.608  1.00  0.00           H  
+ATOM      8  HB1 ALA A   1     -23.003 -51.248 -39.457  1.00  0.00           H  
+ATOM      9  HB2 ALA A   1     -24.396 -50.748 -40.417  1.00  0.00           H  
+ATOM     10  HB3 ALA A   1     -24.235 -52.428 -39.905  1.00  0.00           H  
+ATOM     11  N   ARG A   2     -23.541 -52.869 -37.292  1.00  0.00           N  
+ATOM     12  CA  ARG A   2     -23.303 -53.980 -36.373  1.00  0.00           C  
+ATOM     13  C   ARG A   2     -23.092 -53.477 -34.947  1.00  0.00           C  
+ATOM     14  O   ARG A   2     -23.627 -54.048 -33.995  1.00  0.00           O  
+ATOM     15  CB  ARG A   2     -22.091 -54.809 -36.819  1.00  0.00           C  
+ATOM     16  CG  ARG A   2     -22.327 -55.634 -38.080  1.00  0.00           C  
+ATOM     17  CD  ARG A   2     -22.549 -54.758 -39.306  1.00  0.00           C  
+ATOM     18  NE  ARG A   2     -22.744 -55.548 -40.522  1.00  0.00           N  
+ATOM     19  CZ  ARG A   2     -23.812 -56.318 -40.757  1.00  0.00           C  
+ATOM     20  NH1 ARG A   2     -24.815 -56.374 -39.883  1.00  0.00           N  
+ATOM     21  NH2 ARG A   2     -23.883 -57.026 -41.880  1.00  0.00           N  
+ATOM     22  H   ARG A   2     -22.818 -52.584 -37.889  1.00  0.00           H  
+ATOM     23  HA  ARG A   2     -24.180 -54.610 -36.388  1.00  0.00           H  
+ATOM     24  HB2 ARG A   2     -21.264 -54.140 -37.005  1.00  0.00           H  
+ATOM     25  HB3 ARG A   2     -21.821 -55.484 -36.021  1.00  0.00           H  
+ATOM     26  HG2 ARG A   2     -21.464 -56.259 -38.252  1.00  0.00           H  
+ATOM     27  HG3 ARG A   2     -23.197 -56.256 -37.930  1.00  0.00           H  
+ATOM     28  HD2 ARG A   2     -23.424 -54.149 -39.144  1.00  0.00           H  
+ATOM     29  HD3 ARG A   2     -21.687 -54.120 -39.437  1.00  0.00           H  
+ATOM     30  HE  ARG A   2     -22.035 -55.514 -41.198  1.00  0.00           H  
+ATOM     31 HH11 ARG A   2     -24.779 -55.837 -39.041  1.00  0.00           H  
+ATOM     32 HH12 ARG A   2     -25.608 -56.955 -40.069  1.00  0.00           H  
+ATOM     33 HH21 ARG A   2     -23.139 -56.981 -42.547  1.00  0.00           H  
+ATOM     34 HH22 ARG A   2     -24.680 -57.603 -42.059  1.00  0.00           H  
+ATOM     35  N   ALA A   3     -22.303 -52.409 -34.806  1.00  0.00           N  
+ATOM     36  CA  ALA A   3     -22.015 -51.836 -33.494  1.00  0.00           C  
+ATOM     37  C   ALA A   3     -23.226 -51.132 -32.897  1.00  0.00           C  
+ATOM     38  O   ALA A   3     -23.477 -51.239 -31.695  1.00  0.00           O  
+ATOM     39  CB  ALA A   3     -20.826 -50.888 -33.570  1.00  0.00           C  
+ATOM     40  H   ALA A   3     -21.902 -52.002 -35.603  1.00  0.00           H  
+ATOM     41  HA  ALA A   3     -21.755 -52.650 -32.843  1.00  0.00           H  
+ATOM     42  HB1 ALA A   3     -19.972 -51.414 -33.971  1.00  0.00           H  
+ATOM     43  HB2 ALA A   3     -20.591 -50.524 -32.580  1.00  0.00           H  
+ATOM     44  HB3 ALA A   3     -21.070 -50.055 -34.212  1.00  0.00           H  
+HETATM   45  C1' UN1 A   4     -24.947 -49.288 -36.697  1.00  0.00           C  
+HETATM   46  O1' UN1 A   4     -25.883 -49.829 -36.121  1.00  0.00           O  
+HETATM   47  O   UN1 A   4     -27.551 -50.145 -33.606  1.00  0.00           O  
+HETATM   48  C1  UN1 A   4     -24.408 -47.950 -36.212  1.00  0.00           C  
+HETATM   49  C   UN1 A   4     -26.413 -50.615 -33.650  1.00  0.00           C  
+HETATM   50  CA  UN1 A   4     -25.196 -49.769 -33.275  1.00  0.00           C  
+HETATM   51  C5  UN1 A   4     -25.303 -48.349 -33.870  1.00  0.00           C  
+HETATM   52  C6  UN1 A   4     -24.101 -47.918 -34.717  1.00  0.00           C  
+HETATM   53  N   UN1 A   4     -23.996 -50.444 -33.736  1.00  0.00           N  
+HETATM   54 H1C1 UN1 A   4     -23.499 -47.730 -36.753  1.00  0.00           H  
+HETATM   55 H1C2 UN1 A   4     -25.142 -47.190 -36.429  1.00  0.00           H  
+HETATM   56  HA  UN1 A   4     -25.143 -49.698 -32.198  1.00  0.00           H  
+HETATM   57 H5C1 UN1 A   4     -25.409 -47.644 -33.058  1.00  0.00           H  
+HETATM   58 H5C2 UN1 A   4     -26.185 -48.297 -34.490  1.00  0.00           H  
+HETATM   59 H6C1 UN1 A   4     -23.271 -48.578 -34.514  1.00  0.00           H  
+HETATM   60 H6C2 UN1 A   4     -23.830 -46.910 -34.443  1.00  0.00           H  
+HETATM   61  H   UN1 A   4     -23.778 -50.422 -34.692  1.00  0.00           H  
+HETATM   62  N   NH2 A   5     -26.155 -51.858 -34.077  1.00  0.00           N  
+HETATM   63  HN1 NH2 A   5     -25.229 -52.167 -34.081  1.00  0.00           H  
+HETATM   64  HN2 NH2 A   5     -26.889 -52.402 -34.387  1.00  0.00           H  
+TER      65      NH2 A   5                                                      
+ENDMDL                                                                          
+CONECT    1   45                                                                
+CONECT   37   53                                                                
+CONECT   45    1   46   48                                                      
+CONECT   46   45                                                                
+CONECT   47   49                                                                
+CONECT   48   45   52   54   55                                                 
+CONECT   49   47   50   62                                                      
+CONECT   50   49   51   53   56                                                 
+CONECT   51   50   52   57   58                                                 
+CONECT   52   48   51   59   60                                                 
+CONECT   53   37   50   61                                                      
+CONECT   54   48                                                                
+CONECT   55   48                                                                
+CONECT   56   50                                                                
+CONECT   57   51                                                                
+CONECT   58   51                                                                
+CONECT   59   52                                                                
+CONECT   60   52                                                                
+CONECT   61   53                                                                
+CONECT   62   49   63   64                                                      
+CONECT   63   62                                                                
+CONECT   64   62                                                                
+MASTER       68    0    2    0    0    0    0    6   31    1   22    1          
+END                                                                             

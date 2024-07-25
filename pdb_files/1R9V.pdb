@@ -1,0 +1,1612 @@
+HEADER    DE NOVO PROTEIN                         31-OCT-03   1R9V              
+TITLE     NMR STRUCTURE OF A D,L-ALTERNATING DODECAMER OF NORLEUCINE            
+CAVEAT     1R9V    CHIRALITY ERROR AT C-ALPHA ATOM OF DNE5A AND DNM9A. BOTH     
+CAVEAT   2 1R9V    SHOULD BE D-AMINO ACID ACCORDING TO THE PUBLICATION BUT      
+CAVEAT   3 1R9V    WERE BUILD AS L-AMINO ACID.                                  
+COMPND    MOL_ID: 1;                                                            
+COMPND   2 MOLECULE: BOC-(D-NLE-L-NLE)4-D-NLE(METHYL)-L-NLE-D-NLE-L-NLE METHYL  
+COMPND   3 ESTER;                                                               
+COMPND   4 CHAIN: A;                                                            
+COMPND   5 ENGINEERED: YES                                                      
+SOURCE    MOL_ID: 1;                                                            
+SOURCE   2 SYNTHETIC: YES;                                                      
+SOURCE   3 OTHER_DETAILS: D,L-ALTERNATING SEQUENCE AS IN GRAMICIDIN A           
+KEYWDS    BETA HELIX, ION CHANNEL, DE NOVO PROTEIN                              
+EXPDTA    SOLUTION NMR                                                          
+NUMMDL    5                                                                     
+AUTHOR    E.NAVARRO,B.CELDA                                                     
+REVDAT   5   15-NOV-23 1R9V    1       LINK   ATOM                              
+REVDAT   4   09-FEB-22 1R9V    1       REMARK LINK                              
+REVDAT   3   24-FEB-09 1R9V    1       VERSN                                    
+REVDAT   2   09-DEC-03 1R9V    1       TITLE                                    
+REVDAT   1   02-DEC-03 1R9V    0                                                
+JRNL        AUTH   E.NAVARRO,R.TEJERO,E.FENUDE,B.CELDA                          
+JRNL        TITL   SOLUTION NMR STRUCTURE OF A D,L-ALTERNATING OLIGONORLEUCINE  
+JRNL        TITL 2 AS A MODEL OF BETA-HELIX                                     
+JRNL        REF    BIOPOLYMERS                   V.  59   110 2001              
+JRNL        REFN                   ISSN 0006-3525                               
+JRNL        PMID   11373724                                                     
+JRNL        DOI    10.1002/1097-0282(200108)59:2<110::AID-BIP1010>3.3.CO;2-J    
+REMARK   2                                                                      
+REMARK   2 RESOLUTION. NOT APPLICABLE.                                          
+REMARK   3                                                                      
+REMARK   3 REFINEMENT.                                                          
+REMARK   3   PROGRAM     : DISCOVER 2.9.7, DISCOVER 2.9.7                       
+REMARK   3   AUTHORS     : BIOSYM (DISCOVER), BIOSYM (DISCOVER)                 
+REMARK   3                                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: STRUCTURES BASED IN 38 DISTANCE           
+REMARK   3  RESTRAINTS DEDUCED FROM NOE NMR DATA, 16 ARE BACKBONE RESTRAINTS.   
+REMARK   4                                                                      
+REMARK   4 1R9V COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK 100                                                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 03-NOV-03.                  
+REMARK 100 THE DEPOSITION ID IS D_1000020617.                                   
+REMARK 210                                                                      
+REMARK 210 EXPERIMENTAL DETAILS                                                 
+REMARK 210  EXPERIMENT TYPE                : NMR                                
+REMARK 210  TEMPERATURE           (KELVIN) : 298                                
+REMARK 210  PH                             : NULL                               
+REMARK 210  IONIC STRENGTH                 : NULL                               
+REMARK 210  PRESSURE                       : AMBIENT                            
+REMARK 210  SAMPLE CONTENTS                : 5.5 MM ; CHLOROFORM-D              
+REMARK 210                                                                      
+REMARK 210  NMR EXPERIMENTS CONDUCTED      : DQF-COSY; 2D TOCSY; 2D ROESY       
+REMARK 210  SPECTROMETER FIELD STRENGTH    : 400 MHZ                            
+REMARK 210  SPECTROMETER MODEL             : UNITY                              
+REMARK 210  SPECTROMETER MANUFACTURER      : VARIAN                             
+REMARK 210                                                                      
+REMARK 210  STRUCTURE DETERMINATION.                                            
+REMARK 210   SOFTWARE USED                 : NULL                               
+REMARK 210   METHOD USED                   : MOLECULAR DYNAMICS                 
+REMARK 210                                                                      
+REMARK 210 CONFORMERS, NUMBER CALCULATED   : 25                                 
+REMARK 210 CONFORMERS, NUMBER SUBMITTED    : 5                                  
+REMARK 210 CONFORMERS, SELECTION CRITERIA  : STRUCTURES WITH THE LOWEST         
+REMARK 210                                   ENERGY                             
+REMARK 210                                                                      
+REMARK 210 BEST REPRESENTATIVE CONFORMER IN THIS ENSEMBLE : 1                   
+REMARK 210                                                                      
+REMARK 210 REMARK: NULL                                                         
+REMARK 215                                                                      
+REMARK 215 NMR STUDY                                                            
+REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION           
+REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
+REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
+REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: MONOMERIC                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A                                     
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 400                                                                      
+REMARK 400 COMPOUND                                                             
+REMARK 400                                                                      
+REMARK 400 THE BOC-(D-NLE-L-NLE)4-D-NLE(METHYL)-L-NLE-D-NLE-L-NLE METHYL ESTER  
+REMARK 400 IS POLYPEPTIDE, A MEMBER OF ANTIBIOTIC CLASS.                        
+REMARK 400                                                                      
+REMARK 400  GROUP: 1                                                            
+REMARK 400   NAME: BOC-(D-NLE-L-NLE)4-D-NLE(METHYL)-L-NLE-D-NLE-L-NLE METHYL    
+REMARK 400         ESTER                                                        
+REMARK 400   CHAIN: A                                                           
+REMARK 400   COMPONENT_1: PEPTIDE LIKE POLYMER                                  
+REMARK 400   DESCRIPTION: NULL                                                  
+REMARK 465                                                                      
+REMARK 465 MISSING RESIDUES                                                     
+REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
+REMARK 465 EXPERIMENT. (RES=RESIDUE NAME; C=CHAIN IDENTIFIER;                   
+REMARK 465 SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                            
+REMARK 465   MODELS 1-5                                                         
+REMARK 465     RES C SSSEQI                                                     
+REMARK 465     BOC A     0                                                      
+REMARK 470                                                                      
+REMARK 470 MISSING ATOM                                                         
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (RES=RESIDUE NAME;         
+REMARK 470 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):         
+REMARK 470   MODELS 1-5                                                         
+REMARK 470     RES CSSEQI  ATOMS                                                
+REMARK 470     NLO A  12    C1                                                  
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500  1 NLE A   6       53.09   -149.28                                   
+REMARK 500  1 DNE A  11      -63.93    111.96                                   
+REMARK 500  2 NLE A   6       52.85   -148.93                                   
+REMARK 500  2 DNE A  11      -64.80    111.12                                   
+REMARK 500  3 NLE A   6       69.19   -165.03                                   
+REMARK 500  4 NLE A   6       64.51   -163.06                                   
+REMARK 500  5 NLE A   6       64.27   -162.97                                   
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+DBREF  1R9V A    1    12  PDB             1R9V             1     13             
+SEQRES   1 A   13  BOC DNE NLE DNE NLE DNE NLE DNE NLE DNM NLE DNE NLO          
+MODRES 1R9V NLE A    2  LEU  NORLEUCINE                                         
+MODRES 1R9V NLE A    4  LEU  NORLEUCINE                                         
+MODRES 1R9V NLE A    6  LEU  NORLEUCINE                                         
+MODRES 1R9V NLE A    8  LEU  NORLEUCINE                                         
+MODRES 1R9V NLE A   10  LEU  NORLEUCINE                                         
+MODRES 1R9V NLO A   12  LEU  O-METHYL-L-NORLEUCINE                              
+HET    DNE  A   1      20                                                       
+HET    NLE  A   2      19                                                       
+HET    DNE  A   3      19                                                       
+HET    NLE  A   4      19                                                       
+HET    DNE  A   5      19                                                       
+HET    NLE  A   6      19                                                       
+HET    DNE  A   7      19                                                       
+HET    NLE  A   8      19                                                       
+HET    DNM  A   9      22                                                       
+HET    NLE  A  10      19                                                       
+HET    DNE  A  11      19                                                       
+HET    NLO  A  12      21                                                       
+HETNAM     DNE D-NORLEUCINE                                                     
+HETNAM     NLE NORLEUCINE                                                       
+HETNAM     DNM N-METHYL-D-NORLEUCINE                                            
+HETNAM     NLO O-METHYL-L-NORLEUCINE                                            
+FORMUL   1  DNE    5(C6 H13 N O2)                                               
+FORMUL   1  NLE    5(C6 H13 N O2)                                               
+FORMUL   1  DNM    C7 H15 N O2                                                  
+FORMUL   1  NLO    C7 H15 N O2                                                  
+SHEET    1   A 2 DNE A   3  NLE A   4  0                                        
+SHEET    2   A 2 DNE A   7  NLE A   8  1  N  NLE A   8   O  DNE A   3           
+LINK         C   DNE A   1                 N   NLE A   2     1555   1555  1.34  
+LINK         C   NLE A   2                 N   DNE A   3     1555   1555  1.34  
+LINK         C   DNE A   3                 N   NLE A   4     1555   1555  1.33  
+LINK         C   NLE A   4                 N   DNE A   5     1555   1555  1.33  
+LINK         C   DNE A   5                 N   NLE A   6     1555   1555  1.34  
+LINK         C   NLE A   6                 N   DNE A   7     1555   1555  1.33  
+LINK         C   DNE A   7                 N   NLE A   8     1555   1555  1.33  
+LINK         C   NLE A   8                 N   DNM A   9     1555   1555  1.34  
+LINK         C   DNM A   9                 N   NLE A  10     1555   1555  1.34  
+LINK         C   NLE A  10                 N   DNE A  11     1555   1555  1.33  
+LINK         C   DNE A  11                 N   NLO A  12     1555   1555  1.34  
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1          
+ORIGX1      1.000000  0.000000  0.000000        0.00000                         
+ORIGX2      0.000000  1.000000  0.000000        0.00000                         
+ORIGX3      0.000000  0.000000  1.000000        0.00000                         
+SCALE1      1.000000  0.000000  0.000000        0.00000                         
+SCALE2      0.000000  1.000000  0.000000        0.00000                         
+SCALE3      0.000000  0.000000  1.000000        0.00000                         
+MODEL        1                                                                  
+HETATM    1  N   DNE A   1      31.000  15.157   8.815  1.00  1.00           N  
+HETATM    2  CA  DNE A   1      29.604  15.535   8.503  1.00  1.00           C  
+HETATM    3  C   DNE A   1      29.194  16.876   9.135  1.00  1.00           C  
+HETATM    4  O   DNE A   1      28.071  17.330   8.925  1.00  1.00           O  
+HETATM    5  CB  DNE A   1      29.414  15.569   6.980  1.00  1.00           C  
+HETATM    6  CG  DNE A   1      29.620  14.191   6.335  1.00  1.00           C  
+HETATM    7  CD  DNE A   1      29.498  14.247   4.806  1.00  1.00           C  
+HETATM    8  CE  DNE A   1      28.071  14.548   4.338  1.00  1.00           C  
+HETATM    9  H1  DNE A   1      31.149  15.122   9.829  1.00  1.00           H  
+HETATM   10  H2  DNE A   1      31.649  15.870   8.449  1.00  1.00           H  
+HETATM   11  HA  DNE A   1      28.939  14.774   8.914  1.00  1.00           H  
+HETATM   12  HB2 DNE A   1      28.401  15.911   6.767  1.00  1.00           H  
+HETATM   13  HB3 DNE A   1      30.121  16.278   6.551  1.00  1.00           H  
+HETATM   14  HG2 DNE A   1      30.618  13.827   6.577  1.00  1.00           H  
+HETATM   15  HG3 DNE A   1      28.891  13.485   6.734  1.00  1.00           H  
+HETATM   16  HD2 DNE A   1      30.172  15.007   4.410  1.00  1.00           H  
+HETATM   17  HD3 DNE A   1      29.793  13.277   4.402  1.00  1.00           H  
+HETATM   18  HE1 DNE A   1      27.374  13.834   4.776  1.00  1.00           H  
+HETATM   19  HE2 DNE A   1      27.781  15.560   4.620  1.00  1.00           H  
+HETATM   20  HE3 DNE A   1      28.026  14.467   3.252  1.00  1.00           H  
+HETATM   21  N   NLE A   2      30.080  17.513   9.907  1.00  1.00           N  
+HETATM   22  CA  NLE A   2      29.845  18.787  10.573  1.00  1.00           C  
+HETATM   23  C   NLE A   2      31.174  19.535  10.556  1.00  1.00           C  
+HETATM   24  O   NLE A   2      32.162  19.032  11.091  1.00  1.00           O  
+HETATM   25  CB  NLE A   2      29.365  18.570  12.016  1.00  1.00           C  
+HETATM   26  CG  NLE A   2      28.007  17.861  12.081  1.00  1.00           C  
+HETATM   27  CD  NLE A   2      27.503  17.807  13.527  1.00  1.00           C  
+HETATM   28  CE  NLE A   2      26.154  17.088  13.596  1.00  1.00           C  
+HETATM   29  H   NLE A   2      30.995  17.104  10.036  1.00  1.00           H  
+HETATM   30  HA  NLE A   2      29.101  19.367  10.024  1.00  1.00           H  
+HETATM   31  HB2 NLE A   2      30.105  17.983  12.564  1.00  1.00           H  
+HETATM   32  HB3 NLE A   2      29.274  19.546  12.494  1.00  1.00           H  
+HETATM   33  HG2 NLE A   2      27.285  18.401  11.466  1.00  1.00           H  
+HETATM   34  HG3 NLE A   2      28.104  16.842  11.705  1.00  1.00           H  
+HETATM   35  HD2 NLE A   2      28.225  17.271  14.145  1.00  1.00           H  
+HETATM   36  HD3 NLE A   2      27.387  18.820  13.914  1.00  1.00           H  
+HETATM   37  HE1 NLE A   2      25.419  17.618  12.990  1.00  1.00           H  
+HETATM   38  HE2 NLE A   2      26.256  16.067  13.227  1.00  1.00           H  
+HETATM   39  HE3 NLE A   2      25.809  17.059  14.630  1.00  1.00           H  
+HETATM   40  N   DNE A   3      31.224  20.708   9.920  1.00  1.00           N  
+HETATM   41  CA  DNE A   3      32.485  21.397   9.697  1.00  1.00           C  
+HETATM   42  C   DNE A   3      33.242  20.610   8.626  1.00  1.00           C  
+HETATM   43  O   DNE A   3      33.207  20.953   7.446  1.00  1.00           O  
+HETATM   44  CB  DNE A   3      32.253  22.859   9.309  1.00  1.00           C  
+HETATM   45  CG  DNE A   3      31.486  23.598  10.411  1.00  1.00           C  
+HETATM   46  CD  DNE A   3      31.575  25.104  10.169  1.00  1.00           C  
+HETATM   47  CE  DNE A   3      30.804  25.872  11.245  1.00  1.00           C  
+HETATM   48  H   DNE A   3      30.381  21.118   9.547  1.00  1.00           H  
+HETATM   49  HA  DNE A   3      33.074  21.414  10.616  1.00  1.00           H  
+HETATM   50  HB2 DNE A   3      33.229  23.327   9.172  1.00  1.00           H  
+HETATM   51  HB3 DNE A   3      31.702  22.930   8.373  1.00  1.00           H  
+HETATM   52  HG2 DNE A   3      30.441  23.285  10.411  1.00  1.00           H  
+HETATM   53  HG3 DNE A   3      31.927  23.372  11.383  1.00  1.00           H  
+HETATM   54  HD2 DNE A   3      32.626  25.393  10.201  1.00  1.00           H  
+HETATM   55  HD3 DNE A   3      31.163  25.346   9.188  1.00  1.00           H  
+HETATM   56  HE1 DNE A   3      30.890  26.943  11.060  1.00  1.00           H  
+HETATM   57  HE2 DNE A   3      29.751  25.590  11.220  1.00  1.00           H  
+HETATM   58  HE3 DNE A   3      31.214  25.647  12.230  1.00  1.00           H  
+HETATM   59  N   NLE A   4      33.898  19.530   9.048  1.00  1.00           N  
+HETATM   60  CA  NLE A   4      34.637  18.635   8.175  1.00  1.00           C  
+HETATM   61  C   NLE A   4      33.644  17.974   7.222  1.00  1.00           C  
+HETATM   62  O   NLE A   4      32.719  17.295   7.666  1.00  1.00           O  
+HETATM   63  CB  NLE A   4      35.393  17.589   9.002  1.00  1.00           C  
+HETATM   64  CG  NLE A   4      36.477  18.243   9.869  1.00  1.00           C  
+HETATM   65  CD  NLE A   4      37.232  17.219  10.726  1.00  1.00           C  
+HETATM   66  CE  NLE A   4      38.058  16.240   9.885  1.00  1.00           C  
+HETATM   67  H   NLE A   4      33.827  19.302  10.034  1.00  1.00           H  
+HETATM   68  HA  NLE A   4      35.365  19.205   7.599  1.00  1.00           H  
+HETATM   69  HB2 NLE A   4      34.690  17.043   9.634  1.00  1.00           H  
+HETATM   70  HB3 NLE A   4      35.856  16.888   8.308  1.00  1.00           H  
+HETATM   71  HG2 NLE A   4      37.186  18.773   9.232  1.00  1.00           H  
+HETATM   72  HG3 NLE A   4      36.014  18.965  10.544  1.00  1.00           H  
+HETATM   73  HD2 NLE A   4      37.913  17.761  11.385  1.00  1.00           H  
+HETATM   74  HD3 NLE A   4      36.526  16.663  11.343  1.00  1.00           H  
+HETATM   75  HE1 NLE A   4      38.665  15.623  10.549  1.00  1.00           H  
+HETATM   76  HE2 NLE A   4      37.408  15.586   9.305  1.00  1.00           H  
+HETATM   77  HE3 NLE A   4      38.718  16.788   9.212  1.00  1.00           H  
+HETATM   78  N   DNE A   5      33.832  18.194   5.921  1.00  1.00           N  
+HETATM   79  CA  DNE A   5      32.998  17.660   4.858  1.00  1.00           C  
+HETATM   80  C   DNE A   5      31.577  18.237   4.894  1.00  1.00           C  
+HETATM   81  O   DNE A   5      30.667  17.668   4.296  1.00  1.00           O  
+HETATM   82  CB  DNE A   5      33.025  16.123   4.825  1.00  1.00           C  
+HETATM   83  CG  DNE A   5      34.462  15.581   4.831  1.00  1.00           C  
+HETATM   84  CD  DNE A   5      34.526  14.096   4.455  1.00  1.00           C  
+HETATM   85  CE  DNE A   5      33.757  13.215   5.443  1.00  1.00           C  
+HETATM   86  H   DNE A   5      34.588  18.804   5.620  1.00  1.00           H  
+HETATM   87  HA  DNE A   5      33.444  18.014   3.934  1.00  1.00           H  
+HETATM   88  HB2 DNE A   5      32.477  15.724   5.679  1.00  1.00           H  
+HETATM   89  HB3 DNE A   5      32.526  15.792   3.914  1.00  1.00           H  
+HETATM   90  HG2 DNE A   5      35.058  16.138   4.108  1.00  1.00           H  
+HETATM   91  HG3 DNE A   5      34.900  15.715   5.820  1.00  1.00           H  
+HETATM   92  HD2 DNE A   5      34.122  13.951   3.452  1.00  1.00           H  
+HETATM   93  HD3 DNE A   5      35.572  13.786   4.454  1.00  1.00           H  
+HETATM   94  HE1 DNE A   5      32.688  13.413   5.373  1.00  1.00           H  
+HETATM   95  HE2 DNE A   5      33.932  12.166   5.202  1.00  1.00           H  
+HETATM   96  HE3 DNE A   5      34.096  13.408   6.461  1.00  1.00           H  
+HETATM   97  N   NLE A   6      31.387  19.371   5.574  1.00  1.00           N  
+HETATM   98  CA  NLE A   6      30.128  20.102   5.603  1.00  1.00           C  
+HETATM   99  C   NLE A   6      30.492  21.576   5.770  1.00  1.00           C  
+HETATM  100  O   NLE A   6      30.036  22.254   6.687  1.00  1.00           O  
+HETATM  101  CB  NLE A   6      29.238  19.546   6.726  1.00  1.00           C  
+HETATM  102  CG  NLE A   6      27.807  20.109   6.769  1.00  1.00           C  
+HETATM  103  CD  NLE A   6      27.017  19.953   5.461  1.00  1.00           C  
+HETATM  104  CE  NLE A   6      26.948  18.498   4.989  1.00  1.00           C  
+HETATM  105  H   NLE A   6      32.168  19.777   6.081  1.00  1.00           H  
+HETATM  106  HA  NLE A   6      29.631  19.978   4.641  1.00  1.00           H  
+HETATM  107  HB2 NLE A   6      29.168  18.467   6.609  1.00  1.00           H  
+HETATM  108  HB3 NLE A   6      29.720  19.744   7.682  1.00  1.00           H  
+HETATM  109  HG2 NLE A   6      27.268  19.584   7.559  1.00  1.00           H  
+HETATM  110  HG3 NLE A   6      27.829  21.165   7.034  1.00  1.00           H  
+HETATM  111  HD2 NLE A   6      26.000  20.304   5.640  1.00  1.00           H  
+HETATM  112  HD3 NLE A   6      27.452  20.573   4.677  1.00  1.00           H  
+HETATM  113  HE1 NLE A   6      27.933  18.148   4.679  1.00  1.00           H  
+HETATM  114  HE2 NLE A   6      26.574  17.863   5.793  1.00  1.00           H  
+HETATM  115  HE3 NLE A   6      26.272  18.427   4.136  1.00  1.00           H  
+HETATM  116  N   DNE A   7      31.366  22.045   4.880  1.00  1.00           N  
+HETATM  117  CA  DNE A   7      32.013  23.344   4.948  1.00  1.00           C  
+HETATM  118  C   DNE A   7      33.478  23.090   4.619  1.00  1.00           C  
+HETATM  119  O   DNE A   7      33.886  23.199   3.467  1.00  1.00           O  
+HETATM  120  CB  DNE A   7      31.361  24.373   4.011  1.00  1.00           C  
+HETATM  121  CG  DNE A   7      29.843  24.464   4.206  1.00  1.00           C  
+HETATM  122  CD  DNE A   7      29.260  25.568   3.318  1.00  1.00           C  
+HETATM  123  CE  DNE A   7      27.741  25.641   3.487  1.00  1.00           C  
+HETATM  124  H   DNE A   7      31.644  21.423   4.124  1.00  1.00           H  
+HETATM  125  HA  DNE A   7      31.970  23.748   5.958  1.00  1.00           H  
+HETATM  126  HB2 DNE A   7      31.804  25.347   4.223  1.00  1.00           H  
+HETATM  127  HB3 DNE A   7      31.572  24.137   2.973  1.00  1.00           H  
+HETATM  128  HG2 DNE A   7      29.378  23.515   3.934  1.00  1.00           H  
+HETATM  129  HG3 DNE A   7      29.623  24.682   5.252  1.00  1.00           H  
+HETATM  130  HD2 DNE A   7      29.697  26.529   3.593  1.00  1.00           H  
+HETATM  131  HD3 DNE A   7      29.492  25.358   2.273  1.00  1.00           H  
+HETATM  132  HE1 DNE A   7      27.342  26.433   2.852  1.00  1.00           H  
+HETATM  133  HE2 DNE A   7      27.288  24.692   3.200  1.00  1.00           H  
+HETATM  134  HE3 DNE A   7      27.493  25.859   4.526  1.00  1.00           H  
+HETATM  135  N   NLE A   8      34.268  22.718   5.624  1.00  1.00           N  
+HETATM  136  CA  NLE A   8      35.686  22.460   5.440  1.00  1.00           C  
+HETATM  137  C   NLE A   8      35.813  21.234   4.526  1.00  1.00           C  
+HETATM  138  O   NLE A   8      35.006  20.316   4.659  1.00  1.00           O  
+HETATM  139  CB  NLE A   8      36.349  22.214   6.802  1.00  1.00           C  
+HETATM  140  CG  NLE A   8      36.307  23.461   7.695  1.00  1.00           C  
+HETATM  141  CD  NLE A   8      36.739  23.149   9.134  1.00  1.00           C  
+HETATM  142  CE  NLE A   8      38.182  22.645   9.220  1.00  1.00           C  
+HETATM  143  H   NLE A   8      33.856  22.558   6.535  1.00  1.00           H  
+HETATM  144  HA  NLE A   8      36.128  23.342   4.977  1.00  1.00           H  
+HETATM  145  HB2 NLE A   8      35.837  21.396   7.304  1.00  1.00           H  
+HETATM  146  HB3 NLE A   8      37.387  21.922   6.640  1.00  1.00           H  
+HETATM  147  HG2 NLE A   8      36.958  24.230   7.275  1.00  1.00           H  
+HETATM  148  HG3 NLE A   8      35.292  23.856   7.733  1.00  1.00           H  
+HETATM  149  HD2 NLE A   8      36.656  24.064   9.723  1.00  1.00           H  
+HETATM  150  HD3 NLE A   8      36.071  22.401   9.564  1.00  1.00           H  
+HETATM  151  HE1 NLE A   8      38.468  22.554  10.268  1.00  1.00           H  
+HETATM  152  HE2 NLE A   8      38.276  21.667   8.750  1.00  1.00           H  
+HETATM  153  HE3 NLE A   8      38.854  23.351   8.730  1.00  1.00           H  
+HETATM  154  C   DNM A   9      35.451  20.153   1.789  1.00  1.00           C  
+HETATM  155  N   DNM A   9      36.788  21.183   3.603  1.00  1.00           N  
+HETATM  156  O   DNM A   9      35.175  21.133   1.096  1.00  1.00           O  
+HETATM  157  C1  DNM A   9      37.846  22.189   3.504  1.00  1.00           C  
+HETATM  158  CA  DNM A   9      36.766  20.130   2.582  1.00  1.00           C  
+HETATM  159  CB  DNM A   9      37.129  18.756   3.182  1.00  1.00           C  
+HETATM  160  CD  DNM A   9      38.887  17.426   4.462  1.00  1.00           C  
+HETATM  161  CE  DNM A   9      38.084  17.122   5.732  1.00  1.00           C  
+HETATM  162  CG  DNM A   9      38.514  18.780   3.845  1.00  1.00           C  
+HETATM  163  HA  DNM A   9      37.506  20.360   1.825  1.00  1.00           H  
+HETATM  164  HB  DNM A   9      37.139  18.013   2.383  1.00  1.00           H  
+HETATM  165  HBA DNM A   9      36.386  18.454   3.917  1.00  1.00           H  
+HETATM  166  H1  DNM A   9      38.237  22.435   4.491  1.00  1.00           H  
+HETATM  167  H1A DNM A   9      37.456  23.093   3.037  1.00  1.00           H  
+HETATM  168  H1B DNM A   9      38.685  21.827   2.909  1.00  1.00           H  
+HETATM  169  HD  DNM A   9      39.944  17.452   4.730  1.00  1.00           H  
+HETATM  170  HDA DNM A   9      38.736  16.630   3.731  1.00  1.00           H  
+HETATM  171  HE  DNM A   9      37.026  17.009   5.506  1.00  1.00           H  
+HETATM  172  HEA DNM A   9      38.446  16.192   6.171  1.00  1.00           H  
+HETATM  173  HEB DNM A   9      38.214  17.927   6.457  1.00  1.00           H  
+HETATM  174  HG  DNM A   9      38.550  19.540   4.627  1.00  1.00           H  
+HETATM  175  HGA DNM A   9      39.256  19.030   3.086  1.00  1.00           H  
+HETATM  176  N   NLE A  10      34.643  19.092   1.847  1.00  1.00           N  
+HETATM  177  CA  NLE A  10      33.409  19.048   1.077  1.00  1.00           C  
+HETATM  178  C   NLE A  10      32.481  20.175   1.540  1.00  1.00           C  
+HETATM  179  O   NLE A  10      32.297  20.389   2.739  1.00  1.00           O  
+HETATM  180  CB  NLE A  10      32.745  17.666   1.129  1.00  1.00           C  
+HETATM  181  CG  NLE A  10      33.772  16.551   0.875  1.00  1.00           C  
+HETATM  182  CD  NLE A  10      33.113  15.191   0.615  1.00  1.00           C  
+HETATM  183  CE  NLE A  10      32.413  15.120  -0.746  1.00  1.00           C  
+HETATM  184  H   NLE A  10      34.887  18.317   2.439  1.00  1.00           H  
+HETATM  185  HA  NLE A  10      33.679  19.226   0.034  1.00  1.00           H  
+HETATM  186  HB2 NLE A  10      32.254  17.505   2.087  1.00  1.00           H  
+HETATM  187  HB3 NLE A  10      31.977  17.651   0.357  1.00  1.00           H  
+HETATM  188  HG2 NLE A  10      34.416  16.825   0.037  1.00  1.00           H  
+HETATM  189  HG3 NLE A  10      34.400  16.440   1.759  1.00  1.00           H  
+HETATM  190  HD2 NLE A  10      33.893  14.427   0.632  1.00  1.00           H  
+HETATM  191  HD3 NLE A  10      32.397  14.969   1.407  1.00  1.00           H  
+HETATM  192  HE1 NLE A  10      31.547  15.780  -0.774  1.00  1.00           H  
+HETATM  193  HE2 NLE A  10      33.108  15.398  -1.539  1.00  1.00           H  
+HETATM  194  HE3 NLE A  10      32.072  14.098  -0.919  1.00  1.00           H  
+HETATM  195  N   DNE A  11      31.933  20.916   0.579  1.00  1.00           N  
+HETATM  196  CA  DNE A  11      31.205  22.152   0.813  1.00  1.00           C  
+HETATM  197  C   DNE A  11      32.057  23.282   0.227  1.00  1.00           C  
+HETATM  198  O   DNE A  11      31.663  23.927  -0.739  1.00  1.00           O  
+HETATM  199  CB  DNE A  11      29.810  22.066   0.180  1.00  1.00           C  
+HETATM  200  CG  DNE A  11      28.984  20.952   0.839  1.00  1.00           C  
+HETATM  201  CD  DNE A  11      27.515  20.977   0.398  1.00  1.00           C  
+HETATM  202  CE  DNE A  11      27.351  20.700  -1.099  1.00  1.00           C  
+HETATM  203  H   DNE A  11      32.061  20.634  -0.381  1.00  1.00           H  
+HETATM  204  HA  DNE A  11      31.073  22.327   1.879  1.00  1.00           H  
+HETATM  205  HB2 DNE A  11      29.302  23.021   0.327  1.00  1.00           H  
+HETATM  206  HB3 DNE A  11      29.908  21.881  -0.890  1.00  1.00           H  
+HETATM  207  HG2 DNE A  11      29.414  19.978   0.600  1.00  1.00           H  
+HETATM  208  HG3 DNE A  11      29.012  21.084   1.922  1.00  1.00           H  
+HETATM  209  HD2 DNE A  11      26.977  20.207   0.953  1.00  1.00           H  
+HETATM  210  HD3 DNE A  11      27.075  21.946   0.638  1.00  1.00           H  
+HETATM  211  HE1 DNE A  11      27.840  19.761  -1.361  1.00  1.00           H  
+HETATM  212  HE2 DNE A  11      26.289  20.624  -1.336  1.00  1.00           H  
+HETATM  213  HE3 DNE A  11      27.780  21.510  -1.688  1.00  1.00           H  
+HETATM  214  N   NLO A  12      33.252  23.492   0.791  1.00  1.00           N  
+HETATM  215  CA  NLO A  12      34.241  24.410   0.239  1.00  1.00           C  
+HETATM  216  C   NLO A  12      34.651  23.916  -1.149  1.00  1.00           C  
+HETATM  217  O   NLO A  12      34.718  24.708  -2.085  1.00  1.00           O  
+HETATM  218  CB  NLO A  12      35.455  24.483   1.182  1.00  1.00           C  
+HETATM  219  CG  NLO A  12      36.562  25.440   0.719  1.00  1.00           C  
+HETATM  220  CD  NLO A  12      36.094  26.899   0.680  1.00  1.00           C  
+HETATM  221  CE  NLO A  12      37.274  27.826   0.380  1.00  1.00           C  
+HETATM  222  OXT NLO A  12      34.922  22.583  -1.236  1.00  1.00           O  
+HETATM  223  H   NLO A  12      33.500  22.983   1.637  1.00  1.00           H  
+HETATM  224  HA  NLO A  12      33.783  25.395   0.151  1.00  1.00           H  
+HETATM  225  HB2 NLO A  12      35.131  24.782   2.180  1.00  1.00           H  
+HETATM  226  HB3 NLO A  12      35.899  23.493   1.263  1.00  1.00           H  
+HETATM  227  HG2 NLO A  12      37.389  25.351   1.426  1.00  1.00           H  
+HETATM  228  HG3 NLO A  12      36.928  25.148  -0.266  1.00  1.00           H  
+HETATM  229  HD2 NLO A  12      35.345  27.031  -0.101  1.00  1.00           H  
+HETATM  230  HD3 NLO A  12      35.662  27.173   1.643  1.00  1.00           H  
+HETATM  231  HE1 NLO A  12      38.032  27.733   1.158  1.00  1.00           H  
+HETATM  232  HE2 NLO A  12      37.712  27.569  -0.585  1.00  1.00           H  
+HETATM  233  HE3 NLO A  12      36.924  28.859   0.346  1.00  1.00           H  
+HETATM  234  HXT NLO A  12      34.879  22.167  -0.367  1.00  1.00           H  
+TER     235      NLO A  12                                                      
+ENDMDL                                                                          
+MODEL        2                                                                  
+HETATM    1  N   DNE A   1      31.302  15.096   8.909  1.00  1.00           N  
+HETATM    2  CA  DNE A   1      29.889  15.389   8.587  1.00  1.00           C  
+HETATM    3  C   DNE A   1      29.410  16.715   9.212  1.00  1.00           C  
+HETATM    4  O   DNE A   1      28.242  17.072   9.083  1.00  1.00           O  
+HETATM    5  CB  DNE A   1      29.745  15.349   7.056  1.00  1.00           C  
+HETATM    6  CG  DNE A   1      28.287  15.290   6.579  1.00  1.00           C  
+HETATM    7  CD  DNE A   1      28.227  15.098   5.060  1.00  1.00           C  
+HETATM    8  CE  DNE A   1      26.774  15.026   4.585  1.00  1.00           C  
+HETATM    9  H1  DNE A   1      31.449  15.098   9.924  1.00  1.00           H  
+HETATM   10  H2  DNE A   1      31.912  15.833   8.525  1.00  1.00           H  
+HETATM   11  HA  DNE A   1      29.276  14.592   9.009  1.00  1.00           H  
+HETATM   12  HB2 DNE A   1      30.242  16.217   6.624  1.00  1.00           H  
+HETATM   13  HB3 DNE A   1      30.247  14.451   6.690  1.00  1.00           H  
+HETATM   14  HG2 DNE A   1      27.780  14.455   7.065  1.00  1.00           H  
+HETATM   15  HG3 DNE A   1      27.767  16.214   6.828  1.00  1.00           H  
+HETATM   16  HD2 DNE A   1      28.719  15.937   4.567  1.00  1.00           H  
+HETATM   17  HD3 DNE A   1      28.739  14.175   4.784  1.00  1.00           H  
+HETATM   18  HE1 DNE A   1      26.270  14.181   5.056  1.00  1.00           H  
+HETATM   19  HE2 DNE A   1      26.251  15.947   4.844  1.00  1.00           H  
+HETATM   20  HE3 DNE A   1      26.752  14.896   3.503  1.00  1.00           H  
+HETATM   21  N   NLE A   2      30.291  17.441   9.908  1.00  1.00           N  
+HETATM   22  CA  NLE A   2      29.991  18.691  10.595  1.00  1.00           C  
+HETATM   23  C   NLE A   2      31.266  19.526  10.554  1.00  1.00           C  
+HETATM   24  O   NLE A   2      32.288  19.100  11.091  1.00  1.00           O  
+HETATM   25  CB  NLE A   2      29.572  18.432  12.050  1.00  1.00           C  
+HETATM   26  CG  NLE A   2      28.259  17.647  12.163  1.00  1.00           C  
+HETATM   27  CD  NLE A   2      27.809  17.571  13.626  1.00  1.00           C  
+HETATM   28  CE  NLE A   2      26.507  16.775  13.743  1.00  1.00           C  
+HETATM   29  H   NLE A   2      31.248  17.121   9.962  1.00  1.00           H  
+HETATM   30  HA  NLE A   2      29.193  19.224  10.074  1.00  1.00           H  
+HETATM   31  HB2 NLE A   2      30.363  17.887  12.568  1.00  1.00           H  
+HETATM   32  HB3 NLE A   2      29.442  19.399  12.541  1.00  1.00           H  
+HETATM   33  HG2 NLE A   2      27.487  18.141  11.573  1.00  1.00           H  
+HETATM   34  HG3 NLE A   2      28.403  16.634  11.788  1.00  1.00           H  
+HETATM   35  HD2 NLE A   2      28.582  17.082  14.221  1.00  1.00           H  
+HETATM   36  HD3 NLE A   2      27.646  18.578  14.013  1.00  1.00           H  
+HETATM   37  HE1 NLE A   2      26.200  16.731  14.788  1.00  1.00           H  
+HETATM   38  HE2 NLE A   2      25.722  17.258  13.160  1.00  1.00           H  
+HETATM   39  HE3 NLE A   2      26.657  15.760  13.374  1.00  1.00           H  
+HETATM   40  N   DNE A   3      31.235  20.688   9.897  1.00  1.00           N  
+HETATM   41  CA  DNE A   3      32.448  21.453   9.649  1.00  1.00           C  
+HETATM   42  C   DNE A   3      33.234  20.689   8.582  1.00  1.00           C  
+HETATM   43  O   DNE A   3      33.162  21.002   7.395  1.00  1.00           O  
+HETATM   44  CB  DNE A   3      32.118  22.893   9.230  1.00  1.00           C  
+HETATM   45  CG  DNE A   3      31.225  23.641  10.231  1.00  1.00           C  
+HETATM   46  CD  DNE A   3      31.862  23.752  11.621  1.00  1.00           C  
+HETATM   47  CE  DNE A   3      31.010  24.645  12.526  1.00  1.00           C  
+HETATM   48  H   DNE A   3      30.365  21.036   9.523  1.00  1.00           H  
+HETATM   49  HA  DNE A   3      33.056  21.496  10.554  1.00  1.00           H  
+HETATM   50  HB2 DNE A   3      33.053  23.443   9.111  1.00  1.00           H  
+HETATM   51  HB3 DNE A   3      31.610  22.886   8.268  1.00  1.00           H  
+HETATM   52  HG2 DNE A   3      31.058  24.646   9.841  1.00  1.00           H  
+HETATM   53  HG3 DNE A   3      30.257  23.145  10.312  1.00  1.00           H  
+HETATM   54  HD2 DNE A   3      31.933  22.766  12.080  1.00  1.00           H  
+HETATM   55  HD3 DNE A   3      32.861  24.182  11.535  1.00  1.00           H  
+HETATM   56  HE1 DNE A   3      31.470  24.707  13.513  1.00  1.00           H  
+HETATM   57  HE2 DNE A   3      30.940  25.648  12.103  1.00  1.00           H  
+HETATM   58  HE3 DNE A   3      30.008  24.226  12.626  1.00  1.00           H  
+HETATM   59  N   NLE A   4      33.956  19.657   9.016  1.00  1.00           N  
+HETATM   60  CA  NLE A   4      34.716  18.774   8.151  1.00  1.00           C  
+HETATM   61  C   NLE A   4      33.732  18.045   7.239  1.00  1.00           C  
+HETATM   62  O   NLE A   4      32.840  17.350   7.723  1.00  1.00           O  
+HETATM   63  CB  NLE A   4      35.533  17.782   8.988  1.00  1.00           C  
+HETATM   64  CG  NLE A   4      36.608  18.504   9.812  1.00  1.00           C  
+HETATM   65  CD  NLE A   4      37.418  17.537  10.685  1.00  1.00           C  
+HETATM   66  CE  NLE A   4      38.256  16.557   9.859  1.00  1.00           C  
+HETATM   67  H   NLE A   4      33.920  19.453  10.009  1.00  1.00           H  
+HETATM   68  HA  NLE A   4      35.407  19.357   7.544  1.00  1.00           H  
+HETATM   69  HB2 NLE A   4      34.867  17.226   9.650  1.00  1.00           H  
+HETATM   70  HB3 NLE A   4      36.010  17.082   8.303  1.00  1.00           H  
+HETATM   71  HG2 NLE A   4      37.284  19.040   9.145  1.00  1.00           H  
+HETATM   72  HG3 NLE A   4      36.131  19.229  10.473  1.00  1.00           H  
+HETATM   73  HD2 NLE A   4      38.094  18.125  11.308  1.00  1.00           H  
+HETATM   74  HD3 NLE A   4      36.745  16.979  11.339  1.00  1.00           H  
+HETATM   75  HE1 NLE A   4      38.878  17.103   9.148  1.00  1.00           H  
+HETATM   76  HE2 NLE A   4      38.902  15.987  10.528  1.00  1.00           H  
+HETATM   77  HE3 NLE A   4      37.616  15.859   9.321  1.00  1.00           H  
+HETATM   78  N   DNE A   5      33.890  18.229   5.929  1.00  1.00           N  
+HETATM   79  CA  DNE A   5      33.062  17.631   4.895  1.00  1.00           C  
+HETATM   80  C   DNE A   5      31.627  18.168   4.922  1.00  1.00           C  
+HETATM   81  O   DNE A   5      30.736  17.562   4.332  1.00  1.00           O  
+HETATM   82  CB  DNE A   5      33.125  16.094   4.925  1.00  1.00           C  
+HETATM   83  CG  DNE A   5      34.571  15.583   4.908  1.00  1.00           C  
+HETATM   84  CD  DNE A   5      34.598  14.060   4.755  1.00  1.00           C  
+HETATM   85  CE  DNE A   5      36.042  13.553   4.748  1.00  1.00           C  
+HETATM   86  H   DNE A   5      34.617  18.858   5.595  1.00  1.00           H  
+HETATM   87  HA  DNE A   5      33.496  17.958   3.954  1.00  1.00           H  
+HETATM   88  HB2 DNE A   5      32.614  15.710   5.808  1.00  1.00           H  
+HETATM   89  HB3 DNE A   5      32.606  15.712   4.044  1.00  1.00           H  
+HETATM   90  HG2 DNE A   5      35.109  16.037   4.077  1.00  1.00           H  
+HETATM   91  HG3 DNE A   5      35.064  15.849   5.843  1.00  1.00           H  
+HETATM   92  HD2 DNE A   5      34.061  13.600   5.586  1.00  1.00           H  
+HETATM   93  HD3 DNE A   5      34.116  13.775   3.819  1.00  1.00           H  
+HETATM   94  HE1 DNE A   5      36.046  12.468   4.638  1.00  1.00           H  
+HETATM   95  HE2 DNE A   5      36.590  13.997   3.916  1.00  1.00           H  
+HETATM   96  HE3 DNE A   5      36.535  13.817   5.685  1.00  1.00           H  
+HETATM   97  N   NLE A   6      31.397  19.306   5.583  1.00  1.00           N  
+HETATM   98  CA  NLE A   6      30.106  19.978   5.611  1.00  1.00           C  
+HETATM   99  C   NLE A   6      30.398  21.471   5.735  1.00  1.00           C  
+HETATM  100  O   NLE A   6      29.915  22.151   6.637  1.00  1.00           O  
+HETATM  101  CB  NLE A   6      29.258  19.407   6.760  1.00  1.00           C  
+HETATM  102  CG  NLE A   6      27.793  19.870   6.786  1.00  1.00           C  
+HETATM  103  CD  NLE A   6      27.029  19.463   5.520  1.00  1.00           C  
+HETATM  104  CE  NLE A   6      25.532  19.728   5.694  1.00  1.00           C  
+HETATM  105  H   NLE A   6      32.165  19.754   6.075  1.00  1.00           H  
+HETATM  106  HA  NLE A   6      29.602  19.811   4.660  1.00  1.00           H  
+HETATM  107  HB2 NLE A   6      29.250  18.322   6.674  1.00  1.00           H  
+HETATM  108  HB3 NLE A   6      29.729  19.668   7.706  1.00  1.00           H  
+HETATM  109  HG2 NLE A   6      27.318  19.396   7.646  1.00  1.00           H  
+HETATM  110  HG3 NLE A   6      27.731  20.951   6.917  1.00  1.00           H  
+HETATM  111  HD2 NLE A   6      27.382  20.041   4.666  1.00  1.00           H  
+HETATM  112  HD3 NLE A   6      27.182  18.401   5.323  1.00  1.00           H  
+HETATM  113  HE1 NLE A   6      25.005  19.445   4.782  1.00  1.00           H  
+HETATM  114  HE2 NLE A   6      25.143  19.139   6.526  1.00  1.00           H  
+HETATM  115  HE3 NLE A   6      25.362  20.787   5.890  1.00  1.00           H  
+HETATM  116  N   DNE A   7      31.240  21.956   4.824  1.00  1.00           N  
+HETATM  117  CA  DNE A   7      31.826  23.285   4.846  1.00  1.00           C  
+HETATM  118  C   DNE A   7      33.296  23.086   4.503  1.00  1.00           C  
+HETATM  119  O   DNE A   7      33.688  23.197   3.347  1.00  1.00           O  
+HETATM  120  CB  DNE A   7      31.115  24.256   3.890  1.00  1.00           C  
+HETATM  121  CG  DNE A   7      29.595  24.269   4.090  1.00  1.00           C  
+HETATM  122  CD  DNE A   7      28.949  25.317   3.178  1.00  1.00           C  
+HETATM  123  CE  DNE A   7      27.429  25.308   3.350  1.00  1.00           C  
+HETATM  124  H   DNE A   7      31.542  21.326   4.083  1.00  1.00           H  
+HETATM  125  HA  DNE A   7      31.779  23.715   5.844  1.00  1.00           H  
+HETATM  126  HB2 DNE A   7      31.506  25.257   4.077  1.00  1.00           H  
+HETATM  127  HB3 DNE A   7      31.334  24.009   2.855  1.00  1.00           H  
+HETATM  128  HG2 DNE A   7      29.181  23.290   3.843  1.00  1.00           H  
+HETATM  129  HG3 DNE A   7      29.367  24.500   5.132  1.00  1.00           H  
+HETATM  130  HD2 DNE A   7      29.332  26.307   3.429  1.00  1.00           H  
+HETATM  131  HD3 DNE A   7      29.191  25.096   2.137  1.00  1.00           H  
+HETATM  132  HE1 DNE A   7      26.985  26.061   2.698  1.00  1.00           H  
+HETATM  133  HE2 DNE A   7      27.030  24.329   3.085  1.00  1.00           H  
+HETATM  134  HE3 DNE A   7      27.170  25.535   4.384  1.00  1.00           H  
+HETATM  135  N   NLE A   8      34.110  22.759   5.504  1.00  1.00           N  
+HETATM  136  CA  NLE A   8      35.535  22.555   5.308  1.00  1.00           C  
+HETATM  137  C   NLE A   8      35.702  21.313   4.421  1.00  1.00           C  
+HETATM  138  O   NLE A   8      34.939  20.363   4.587  1.00  1.00           O  
+HETATM  139  CB  NLE A   8      36.227  22.372   6.666  1.00  1.00           C  
+HETATM  140  CG  NLE A   8      36.136  23.636   7.532  1.00  1.00           C  
+HETATM  141  CD  NLE A   8      36.603  23.379   8.970  1.00  1.00           C  
+HETATM  142  CE  NLE A   8      38.072  22.952   9.045  1.00  1.00           C  
+HETATM  143  H   NLE A   8      33.716  22.594   6.423  1.00  1.00           H  
+HETATM  144  HA  NLE A   8      35.933  23.444   4.818  1.00  1.00           H  
+HETATM  145  HB2 NLE A   8      35.760  21.544   7.193  1.00  1.00           H  
+HETATM  146  HB3 NLE A   8      37.275  22.127   6.497  1.00  1.00           H  
+HETATM  147  HG2 NLE A   8      36.741  24.427   7.085  1.00  1.00           H  
+HETATM  148  HG3 NLE A   8      35.103  23.980   7.578  1.00  1.00           H  
+HETATM  149  HD2 NLE A   8      36.482  24.301   9.540  1.00  1.00           H  
+HETATM  150  HD3 NLE A   8      35.981  22.608   9.427  1.00  1.00           H  
+HETATM  151  HE1 NLE A   8      38.376  22.898  10.091  1.00  1.00           H  
+HETATM  152  HE2 NLE A   8      38.209  21.969   8.595  1.00  1.00           H  
+HETATM  153  HE3 NLE A   8      38.700  23.680   8.531  1.00  1.00           H  
+HETATM  154  C   DNM A   9      35.348  20.149   1.711  1.00  1.00           C  
+HETATM  155  N   DNM A   9      36.665  21.283   3.485  1.00  1.00           N  
+HETATM  156  O   DNM A   9      35.010  21.104   1.011  1.00  1.00           O  
+HETATM  157  C1  DNM A   9      37.677  22.332   3.349  1.00  1.00           C  
+HETATM  158  CA  DNM A   9      36.675  20.210   2.484  1.00  1.00           C  
+HETATM  159  CB  DNM A   9      37.115  18.866   3.102  1.00  1.00           C  
+HETATM  160  CD  DNM A   9      38.985  17.636   4.323  1.00  1.00           C  
+HETATM  161  CE  DNM A   9      38.195  17.223   5.570  1.00  1.00           C  
+HETATM  162  CG  DNM A   9      38.506  18.973   3.743  1.00  1.00           C  
+HETATM  163  HA  DNM A   9      37.397  20.470   1.719  1.00  1.00           H  
+HETATM  164  HB  DNM A   9      37.151  18.112   2.315  1.00  1.00           H  
+HETATM  165  HBA DNM A   9      36.398  18.542   3.854  1.00  1.00           H  
+HETATM  166  H1  DNM A   9      38.528  21.992   2.759  1.00  1.00           H  
+HETATM  167  H1A DNM A   9      38.063  22.624   4.326  1.00  1.00           H  
+HETATM  168  H1B DNM A   9      37.243  23.204   2.859  1.00  1.00           H  
+HETATM  169  HD  DNM A   9      40.033  17.743   4.608  1.00  1.00           H  
+HETATM  170  HDA DNM A   9      38.912  16.854   3.566  1.00  1.00           H  
+HETATM  171  HE  DNM A   9      38.638  16.320   5.992  1.00  1.00           H  
+HETATM  172  HEA DNM A   9      38.232  18.016   6.317  1.00  1.00           H  
+HETATM  173  HEB DNM A   9      37.158  17.013   5.316  1.00  1.00           H  
+HETATM  174  HG  DNM A   9      38.500  19.718   4.539  1.00  1.00           H  
+HETATM  175  HGA DNM A   9      39.217  19.289   2.978  1.00  1.00           H  
+HETATM  176  N   NLE A  10      34.595  19.048   1.794  1.00  1.00           N  
+HETATM  177  CA  NLE A  10      33.341  18.936   1.057  1.00  1.00           C  
+HETATM  178  C   NLE A  10      32.388  20.045   1.518  1.00  1.00           C  
+HETATM  179  O   NLE A  10      32.243  20.296   2.714  1.00  1.00           O  
+HETATM  180  CB  NLE A  10      32.714  17.539   1.183  1.00  1.00           C  
+HETATM  181  CG  NLE A  10      33.699  16.385   0.940  1.00  1.00           C  
+HETATM  182  CD  NLE A  10      34.328  16.438  -0.457  1.00  1.00           C  
+HETATM  183  CE  NLE A  10      35.198  15.201  -0.692  1.00  1.00           C  
+HETATM  184  H   NLE A  10      34.891  18.289   2.383  1.00  1.00           H  
+HETATM  185  HA  NLE A  10      33.568  19.100   0.003  1.00  1.00           H  
+HETATM  186  HB2 NLE A  10      32.273  17.420   2.170  1.00  1.00           H  
+HETATM  187  HB3 NLE A  10      31.902  17.464   0.458  1.00  1.00           H  
+HETATM  188  HG2 NLE A  10      34.488  16.395   1.692  1.00  1.00           H  
+HETATM  189  HG3 NLE A  10      33.148  15.449   1.041  1.00  1.00           H  
+HETATM  190  HD2 NLE A  10      33.543  16.470  -1.213  1.00  1.00           H  
+HETATM  191  HD3 NLE A  10      34.955  17.325  -0.553  1.00  1.00           H  
+HETATM  192  HE1 NLE A  10      35.644  15.254  -1.686  1.00  1.00           H  
+HETATM  193  HE2 NLE A  10      35.994  15.158   0.052  1.00  1.00           H  
+HETATM  194  HE3 NLE A  10      34.591  14.298  -0.624  1.00  1.00           H  
+HETATM  195  N   DNE A  11      31.772  20.728   0.554  1.00  1.00           N  
+HETATM  196  CA  DNE A  11      31.003  21.941   0.778  1.00  1.00           C  
+HETATM  197  C   DNE A  11      31.794  23.086   0.139  1.00  1.00           C  
+HETATM  198  O   DNE A  11      31.355  23.679  -0.842  1.00  1.00           O  
+HETATM  199  CB  DNE A  11      29.594  21.786   0.191  1.00  1.00           C  
+HETATM  200  CG  DNE A  11      28.819  20.682   0.925  1.00  1.00           C  
+HETATM  201  CD  DNE A  11      27.386  20.589   0.393  1.00  1.00           C  
+HETATM  202  CE  DNE A  11      26.614  19.493   1.131  1.00  1.00           C  
+HETATM  203  H   DNE A  11      31.873  20.417  -0.400  1.00  1.00           H  
+HETATM  204  HA  DNE A  11      30.894  22.139   1.842  1.00  1.00           H  
+HETATM  205  HB2 DNE A  11      29.061  22.731   0.310  1.00  1.00           H  
+HETATM  206  HB3 DNE A  11      29.656  21.551  -0.873  1.00  1.00           H  
+HETATM  207  HG2 DNE A  11      29.316  19.722   0.780  1.00  1.00           H  
+HETATM  208  HG3 DNE A  11      28.792  20.908   1.992  1.00  1.00           H  
+HETATM  209  HD2 DNE A  11      26.878  21.543   0.539  1.00  1.00           H  
+HETATM  210  HD3 DNE A  11      27.407  20.357  -0.673  1.00  1.00           H  
+HETATM  211  HE1 DNE A  11      25.599  19.435   0.737  1.00  1.00           H  
+HETATM  212  HE2 DNE A  11      27.106  18.530   0.990  1.00  1.00           H  
+HETATM  213  HE3 DNE A  11      26.569  19.721   2.196  1.00  1.00           H  
+HETATM  214  N   NLO A  12      32.987  23.368   0.673  1.00  1.00           N  
+HETATM  215  CA  NLO A  12      33.923  24.311   0.075  1.00  1.00           C  
+HETATM  216  C   NLO A  12      34.331  23.793  -1.305  1.00  1.00           C  
+HETATM  217  O   NLO A  12      34.347  24.558  -2.266  1.00  1.00           O  
+HETATM  218  CB  NLO A  12      35.149  24.470   0.992  1.00  1.00           C  
+HETATM  219  CG  NLO A  12      36.204  25.459   0.477  1.00  1.00           C  
+HETATM  220  CD  NLO A  12      35.668  26.893   0.392  1.00  1.00           C  
+HETATM  221  CE  NLO A  12      36.799  27.861   0.039  1.00  1.00           C  
+HETATM  222  OXT NLO A  12      34.660  22.472  -1.357  1.00  1.00           O  
+HETATM  223  H   NLO A  12      33.273  22.899   1.530  1.00  1.00           H  
+HETATM  224  HA  NLO A  12      33.419  25.272  -0.036  1.00  1.00           H  
+HETATM  225  HB2 NLO A  12      34.829  24.789   1.985  1.00  1.00           H  
+HETATM  226  HB3 NLO A  12      35.638  23.504   1.098  1.00  1.00           H  
+HETATM  227  HG2 NLO A  12      37.043  25.435   1.174  1.00  1.00           H  
+HETATM  228  HG3 NLO A  12      36.569  25.148  -0.503  1.00  1.00           H  
+HETATM  229  HD2 NLO A  12      34.902  26.961  -0.382  1.00  1.00           H  
+HETATM  230  HD3 NLO A  12      35.237  27.183   1.351  1.00  1.00           H  
+HETATM  231  HE1 NLO A  12      37.572  27.832   0.808  1.00  1.00           H  
+HETATM  232  HE2 NLO A  12      37.235  27.588  -0.923  1.00  1.00           H  
+HETATM  233  HE3 NLO A  12      36.402  28.875  -0.026  1.00  1.00           H  
+HETATM  234  HXT NLO A  12      34.647  22.081  -0.476  1.00  1.00           H  
+TER     235      NLO A  12                                                      
+ENDMDL                                                                          
+MODEL        3                                                                  
+HETATM    1  N   DNE A   1      29.714  15.109   9.836  1.00  1.00           N  
+HETATM    2  CA  DNE A   1      28.768  15.839   8.966  1.00  1.00           C  
+HETATM    3  C   DNE A   1      28.645  17.312   9.375  1.00  1.00           C  
+HETATM    4  O   DNE A   1      27.602  17.922   9.156  1.00  1.00           O  
+HETATM    5  CB  DNE A   1      29.209  15.751   7.500  1.00  1.00           C  
+HETATM    6  CG  DNE A   1      29.188  14.327   6.935  1.00  1.00           C  
+HETATM    7  CD  DNE A   1      29.555  14.373   5.448  1.00  1.00           C  
+HETATM    8  CE  DNE A   1      29.417  12.988   4.813  1.00  1.00           C  
+HETATM    9  H1  DNE A   1      29.735  14.115   9.584  1.00  1.00           H  
+HETATM   10  H2  DNE A   1      29.395  15.143  10.811  1.00  1.00           H  
+HETATM   11  HA  DNE A   1      27.781  15.385   9.061  1.00  1.00           H  
+HETATM   12  HB2 DNE A   1      28.507  16.344   6.914  1.00  1.00           H  
+HETATM   13  HB3 DNE A   1      30.209  16.177   7.391  1.00  1.00           H  
+HETATM   14  HG2 DNE A   1      29.907  13.700   7.464  1.00  1.00           H  
+HETATM   15  HG3 DNE A   1      28.188  13.908   7.052  1.00  1.00           H  
+HETATM   16  HD2 DNE A   1      28.908  15.081   4.924  1.00  1.00           H  
+HETATM   17  HD3 DNE A   1      30.585  14.709   5.343  1.00  1.00           H  
+HETATM   18  HE1 DNE A   1      28.385  12.644   4.889  1.00  1.00           H  
+HETATM   19  HE2 DNE A   1      29.698  13.041   3.761  1.00  1.00           H  
+HETATM   20  HE3 DNE A   1      30.072  12.279   5.322  1.00  1.00           H  
+HETATM   21  N   NLE A   2      29.707  17.882   9.949  1.00  1.00           N  
+HETATM   22  CA  NLE A   2      29.808  19.286  10.324  1.00  1.00           C  
+HETATM   23  C   NLE A   2      31.279  19.678  10.210  1.00  1.00           C  
+HETATM   24  O   NLE A   2      32.130  19.005  10.790  1.00  1.00           O  
+HETATM   25  CB  NLE A   2      29.324  19.508  11.766  1.00  1.00           C  
+HETATM   26  CG  NLE A   2      27.835  19.199  11.959  1.00  1.00           C  
+HETATM   27  CD  NLE A   2      27.385  19.611  13.365  1.00  1.00           C  
+HETATM   28  CE  NLE A   2      25.902  19.291  13.565  1.00  1.00           C  
+HETATM   29  H   NLE A   2      30.521  17.305  10.121  1.00  1.00           H  
+HETATM   30  HA  NLE A   2      29.217  19.901   9.642  1.00  1.00           H  
+HETATM   31  HB2 NLE A   2      29.911  18.888  12.446  1.00  1.00           H  
+HETATM   32  HB3 NLE A   2      29.497  20.555  12.019  1.00  1.00           H  
+HETATM   33  HG2 NLE A   2      27.251  19.745  11.218  1.00  1.00           H  
+HETATM   34  HG3 NLE A   2      27.662  18.130  11.836  1.00  1.00           H  
+HETATM   35  HD2 NLE A   2      27.971  19.071  14.109  1.00  1.00           H  
+HETATM   36  HD3 NLE A   2      27.539  20.683  13.500  1.00  1.00           H  
+HETATM   37  HE1 NLE A   2      25.597  19.591  14.568  1.00  1.00           H  
+HETATM   38  HE2 NLE A   2      25.302  19.832  12.833  1.00  1.00           H  
+HETATM   39  HE3 NLE A   2      25.733  18.220  13.448  1.00  1.00           H  
+HETATM   40  N   DNE A   3      31.599  20.746   9.477  1.00  1.00           N  
+HETATM   41  CA  DNE A   3      32.977  21.196   9.376  1.00  1.00           C  
+HETATM   42  C   DNE A   3      33.673  20.297   8.358  1.00  1.00           C  
+HETATM   43  O   DNE A   3      33.567  20.513   7.151  1.00  1.00           O  
+HETATM   44  CB  DNE A   3      33.049  22.681   8.999  1.00  1.00           C  
+HETATM   45  CG  DNE A   3      32.199  23.595   9.896  1.00  1.00           C  
+HETATM   46  CD  DNE A   3      32.521  23.492  11.394  1.00  1.00           C  
+HETATM   47  CE  DNE A   3      33.974  23.858  11.709  1.00  1.00           C  
+HETATM   48  H   DNE A   3      30.894  21.255   8.953  1.00  1.00           H  
+HETATM   49  HA  DNE A   3      33.476  21.083  10.339  1.00  1.00           H  
+HETATM   50  HB2 DNE A   3      34.089  23.000   9.042  1.00  1.00           H  
+HETATM   51  HB3 DNE A   3      32.709  22.805   7.975  1.00  1.00           H  
+HETATM   52  HG2 DNE A   3      32.355  24.627   9.577  1.00  1.00           H  
+HETATM   53  HG3 DNE A   3      31.144  23.360   9.751  1.00  1.00           H  
+HETATM   54  HD2 DNE A   3      31.871  24.187  11.927  1.00  1.00           H  
+HETATM   55  HD3 DNE A   3      32.307  22.487  11.759  1.00  1.00           H  
+HETATM   56  HE1 DNE A   3      34.115  23.867  12.790  1.00  1.00           H  
+HETATM   57  HE2 DNE A   3      34.659  23.128  11.277  1.00  1.00           H  
+HETATM   58  HE3 DNE A   3      34.202  24.848  11.314  1.00  1.00           H  
+HETATM   59  N   NLE A   4      34.367  19.268   8.845  1.00  1.00           N  
+HETATM   60  CA  NLE A   4      35.073  18.323   7.998  1.00  1.00           C  
+HETATM   61  C   NLE A   4      34.053  17.629   7.095  1.00  1.00           C  
+HETATM   62  O   NLE A   4      33.199  16.891   7.580  1.00  1.00           O  
+HETATM   63  CB  NLE A   4      35.841  17.308   8.853  1.00  1.00           C  
+HETATM   64  CG  NLE A   4      36.960  17.986   9.656  1.00  1.00           C  
+HETATM   65  CD  NLE A   4      37.715  16.995  10.551  1.00  1.00           C  
+HETATM   66  CE  NLE A   4      38.490  15.945   9.748  1.00  1.00           C  
+HETATM   67  H   NLE A   4      34.370  19.125   9.845  1.00  1.00           H  
+HETATM   68  HA  NLE A   4      35.792  18.866   7.381  1.00  1.00           H  
+HETATM   69  HB2 NLE A   4      35.149  16.804   9.531  1.00  1.00           H  
+HETATM   70  HB3 NLE A   4      36.273  16.567   8.182  1.00  1.00           H  
+HETATM   71  HG2 NLE A   4      37.664  18.462   8.972  1.00  1.00           H  
+HETATM   72  HG3 NLE A   4      36.531  18.755  10.299  1.00  1.00           H  
+HETATM   73  HD2 NLE A   4      38.428  17.556  11.157  1.00  1.00           H  
+HETATM   74  HD3 NLE A   4      37.013  16.495  11.220  1.00  1.00           H  
+HETATM   75  HE1 NLE A   4      39.102  15.353  10.429  1.00  1.00           H  
+HETATM   76  HE2 NLE A   4      37.806  15.275   9.228  1.00  1.00           H  
+HETATM   77  HE3 NLE A   4      39.142  16.434   9.023  1.00  1.00           H  
+HETATM   78  N   DNE A   5      34.136  17.887   5.790  1.00  1.00           N  
+HETATM   79  CA  DNE A   5      33.246  17.338   4.779  1.00  1.00           C  
+HETATM   80  C   DNE A   5      31.837  17.931   4.884  1.00  1.00           C  
+HETATM   81  O   DNE A   5      30.879  17.333   4.401  1.00  1.00           O  
+HETATM   82  CB  DNE A   5      33.267  15.801   4.746  1.00  1.00           C  
+HETATM   83  CG  DNE A   5      34.693  15.252   4.614  1.00  1.00           C  
+HETATM   84  CD  DNE A   5      34.662  13.738   4.383  1.00  1.00           C  
+HETATM   85  CE  DNE A   5      36.087  13.191   4.264  1.00  1.00           C  
+HETATM   86  H   DNE A   5      34.835  18.545   5.455  1.00  1.00           H  
+HETATM   87  HA  DNE A   5      33.638  17.680   3.828  1.00  1.00           H  
+HETATM   88  HB2 DNE A   5      32.806  15.392   5.645  1.00  1.00           H  
+HETATM   89  HB3 DNE A   5      32.683  15.471   3.885  1.00  1.00           H  
+HETATM   90  HG2 DNE A   5      35.195  15.733   3.775  1.00  1.00           H  
+HETATM   91  HG3 DNE A   5      35.246  15.455   5.530  1.00  1.00           H  
+HETATM   92  HD2 DNE A   5      34.160  13.251   5.221  1.00  1.00           H  
+HETATM   93  HD3 DNE A   5      34.117  13.517   3.464  1.00  1.00           H  
+HETATM   94  HE1 DNE A   5      36.049  12.114   4.100  1.00  1.00           H  
+HETATM   95  HE2 DNE A   5      36.598  13.661   3.424  1.00  1.00           H  
+HETATM   96  HE3 DNE A   5      36.641  13.392   5.181  1.00  1.00           H  
+HETATM   97  N   NLE A   6      31.717  19.121   5.478  1.00  1.00           N  
+HETATM   98  CA  NLE A   6      30.494  19.909   5.506  1.00  1.00           C  
+HETATM   99  C   NLE A   6      30.865  21.328   5.936  1.00  1.00           C  
+HETATM  100  O   NLE A   6      30.528  21.765   7.037  1.00  1.00           O  
+HETATM  101  CB  NLE A   6      29.435  19.258   6.411  1.00  1.00           C  
+HETATM  102  CG  NLE A   6      28.088  19.999   6.468  1.00  1.00           C  
+HETATM  103  CD  NLE A   6      27.489  20.249   5.079  1.00  1.00           C  
+HETATM  104  CE  NLE A   6      26.066  20.799   5.201  1.00  1.00           C  
+HETATM  105  H   NLE A   6      32.539  19.526   5.916  1.00  1.00           H  
+HETATM  106  HA  NLE A   6      30.102  19.934   4.489  1.00  1.00           H  
+HETATM  107  HB2 NLE A   6      29.230  18.261   6.032  1.00  1.00           H  
+HETATM  108  HB3 NLE A   6      29.838  19.168   7.418  1.00  1.00           H  
+HETATM  109  HG2 NLE A   6      27.393  19.381   7.036  1.00  1.00           H  
+HETATM  110  HG3 NLE A   6      28.190  20.949   6.992  1.00  1.00           H  
+HETATM  111  HD2 NLE A   6      28.089  20.982   4.541  1.00  1.00           H  
+HETATM  112  HD3 NLE A   6      27.464  19.315   4.515  1.00  1.00           H  
+HETATM  113  HE1 NLE A   6      25.431  20.079   5.717  1.00  1.00           H  
+HETATM  114  HE2 NLE A   6      26.077  21.736   5.759  1.00  1.00           H  
+HETATM  115  HE3 NLE A   6      25.660  20.981   4.205  1.00  1.00           H  
+HETATM  116  N   DNE A   7      31.575  22.035   5.052  1.00  1.00           N  
+HETATM  117  CA  DNE A   7      31.965  23.432   5.247  1.00  1.00           C  
+HETATM  118  C   DNE A   7      33.483  23.586   5.103  1.00  1.00           C  
+HETATM  119  O   DNE A   7      33.972  24.663   4.774  1.00  1.00           O  
+HETATM  120  CB  DNE A   7      31.218  24.321   4.240  1.00  1.00           C  
+HETATM  121  CG  DNE A   7      29.697  24.130   4.306  1.00  1.00           C  
+HETATM  122  CD  DNE A   7      29.002  25.054   3.302  1.00  1.00           C  
+HETATM  123  CE  DNE A   7      27.490  24.821   3.324  1.00  1.00           C  
+HETATM  124  H   DNE A   7      31.868  21.570   4.196  1.00  1.00           H  
+HETATM  125  HA  DNE A   7      31.693  23.777   6.243  1.00  1.00           H  
+HETATM  126  HB2 DNE A   7      31.451  25.365   4.456  1.00  1.00           H  
+HETATM  127  HB3 DNE A   7      31.568  24.097   3.235  1.00  1.00           H  
+HETATM  128  HG2 DNE A   7      29.436  23.100   4.064  1.00  1.00           H  
+HETATM  129  HG3 DNE A   7      29.347  24.355   5.314  1.00  1.00           H  
+HETATM  130  HD2 DNE A   7      29.209  26.095   3.558  1.00  1.00           H  
+HETATM  131  HD3 DNE A   7      29.378  24.856   2.297  1.00  1.00           H  
+HETATM  132  HE1 DNE A   7      27.096  25.025   4.320  1.00  1.00           H  
+HETATM  133  HE2 DNE A   7      27.009  25.487   2.607  1.00  1.00           H  
+HETATM  134  HE3 DNE A   7      27.268  23.788   3.053  1.00  1.00           H  
+HETATM  135  N   NLE A   8      34.222  22.498   5.324  1.00  1.00           N  
+HETATM  136  CA  NLE A   8      35.642  22.350   5.040  1.00  1.00           C  
+HETATM  137  C   NLE A   8      35.779  21.072   4.201  1.00  1.00           C  
+HETATM  138  O   NLE A   8      35.023  20.131   4.443  1.00  1.00           O  
+HETATM  139  CB  NLE A   8      36.430  22.246   6.353  1.00  1.00           C  
+HETATM  140  CG  NLE A   8      36.408  23.574   7.118  1.00  1.00           C  
+HETATM  141  CD  NLE A   8      37.138  23.428   8.457  1.00  1.00           C  
+HETATM  142  CE  NLE A   8      37.093  24.744   9.235  1.00  1.00           C  
+HETATM  143  H   NLE A   8      33.760  21.669   5.690  1.00  1.00           H  
+HETATM  144  HA  NLE A   8      35.988  23.212   4.470  1.00  1.00           H  
+HETATM  145  HB2 NLE A   8      36.003  21.458   6.972  1.00  1.00           H  
+HETATM  146  HB3 NLE A   8      37.467  21.984   6.140  1.00  1.00           H  
+HETATM  147  HG2 NLE A   8      36.897  24.344   6.519  1.00  1.00           H  
+HETATM  148  HG3 NLE A   8      35.379  23.880   7.302  1.00  1.00           H  
+HETATM  149  HD2 NLE A   8      36.663  22.647   9.052  1.00  1.00           H  
+HETATM  150  HD3 NLE A   8      38.179  23.153   8.279  1.00  1.00           H  
+HETATM  151  HE1 NLE A   8      37.609  24.623  10.188  1.00  1.00           H  
+HETATM  152  HE2 NLE A   8      37.585  25.532   8.663  1.00  1.00           H  
+HETATM  153  HE3 NLE A   8      36.058  25.031   9.424  1.00  1.00           H  
+HETATM  154  C   DNM A   9      35.287  19.959   1.493  1.00  1.00           C  
+HETATM  155  N   DNM A   9      36.704  21.006   3.225  1.00  1.00           N  
+HETATM  156  O   DNM A   9      34.994  20.913   0.772  1.00  1.00           O  
+HETATM  157  C1  DNM A   9      37.735  22.028   3.029  1.00  1.00           C  
+HETATM  158  CA  DNM A   9      36.644  19.939   2.217  1.00  1.00           C  
+HETATM  159  CB  DNM A   9      37.035  18.571   2.812  1.00  1.00           C  
+HETATM  160  CD  DNM A   9      38.833  17.267   4.060  1.00  1.00           C  
+HETATM  161  CE  DNM A   9      38.126  17.043   5.402  1.00  1.00           C  
+HETATM  162  CG  DNM A   9      38.446  18.606   3.419  1.00  1.00           C  
+HETATM  163  HA  DNM A   9      37.366  20.156   1.433  1.00  1.00           H  
+HETATM  164  HB  DNM A   9      37.022  17.825   2.015  1.00  1.00           H  
+HETATM  165  HBA DNM A   9      36.322  18.266   3.574  1.00  1.00           H  
+HETATM  166  H1  DNM A   9      38.111  22.397   3.982  1.00  1.00           H  
+HETATM  167  H1A DNM A   9      37.329  22.861   2.457  1.00  1.00           H  
+HETATM  168  H1B DNM A   9      38.591  21.621   2.489  1.00  1.00           H  
+HETATM  169  HD  DNM A   9      39.908  17.272   4.244  1.00  1.00           H  
+HETATM  170  HDA DNM A   9      38.603  16.447   3.379  1.00  1.00           H  
+HETATM  171  HE  DNM A   9      37.048  16.996   5.268  1.00  1.00           H  
+HETATM  172  HEA DNM A   9      38.466  16.102   5.834  1.00  1.00           H  
+HETATM  173  HEB DNM A   9      38.367  17.854   6.090  1.00  1.00           H  
+HETATM  174  HG  DNM A   9      38.520  19.388   4.174  1.00  1.00           H  
+HETATM  175  HGA DNM A   9      39.157  18.826   2.622  1.00  1.00           H  
+HETATM  176  N   NLE A  10      34.445  18.937   1.653  1.00  1.00           N  
+HETATM  177  CA  NLE A  10      33.129  18.948   1.025  1.00  1.00           C  
+HETATM  178  C   NLE A  10      32.293  20.111   1.580  1.00  1.00           C  
+HETATM  179  O   NLE A  10      32.571  20.662   2.649  1.00  1.00           O  
+HETATM  180  CB  NLE A  10      32.420  17.591   1.154  1.00  1.00           C  
+HETATM  181  CG  NLE A  10      33.301  16.387   0.788  1.00  1.00           C  
+HETATM  182  CD  NLE A  10      33.808  16.452  -0.657  1.00  1.00           C  
+HETATM  183  CE  NLE A  10      34.570  15.173  -1.009  1.00  1.00           C  
+HETATM  184  H   NLE A  10      34.718  18.159   2.229  1.00  1.00           H  
+HETATM  185  HA  NLE A  10      33.273  19.138  -0.039  1.00  1.00           H  
+HETATM  186  HB2 NLE A  10      32.064  17.461   2.172  1.00  1.00           H  
+HETATM  187  HB3 NLE A  10      31.544  17.594   0.504  1.00  1.00           H  
+HETATM  188  HG2 NLE A  10      34.151  16.317   1.466  1.00  1.00           H  
+HETATM  189  HG3 NLE A  10      32.699  15.485   0.906  1.00  1.00           H  
+HETATM  190  HD2 NLE A  10      32.964  16.563  -1.339  1.00  1.00           H  
+HETATM  191  HD3 NLE A  10      34.482  17.301  -0.781  1.00  1.00           H  
+HETATM  192  HE1 NLE A  10      33.912  14.308  -0.916  1.00  1.00           H  
+HETATM  193  HE2 NLE A  10      34.930  15.235  -2.037  1.00  1.00           H  
+HETATM  194  HE3 NLE A  10      35.423  15.051  -0.340  1.00  1.00           H  
+HETATM  195  N   DNE A  11      31.283  20.539   0.824  1.00  1.00           N  
+HETATM  196  CA  DNE A  11      30.545  21.757   1.130  1.00  1.00           C  
+HETATM  197  C   DNE A  11      31.348  22.954   0.605  1.00  1.00           C  
+HETATM  198  O   DNE A  11      30.844  23.746  -0.185  1.00  1.00           O  
+HETATM  199  CB  DNE A  11      29.139  21.680   0.518  1.00  1.00           C  
+HETATM  200  CG  DNE A  11      28.359  20.480   1.074  1.00  1.00           C  
+HETATM  201  CD  DNE A  11      26.874  20.528   0.696  1.00  1.00           C  
+HETATM  202  CE  DNE A  11      26.654  20.434  -0.817  1.00  1.00           C  
+HETATM  203  H   DNE A  11      31.037  20.027  -0.010  1.00  1.00           H  
+HETATM  204  HA  DNE A  11      30.431  21.871   2.208  1.00  1.00           H  
+HETATM  205  HB2 DNE A  11      28.604  22.598   0.766  1.00  1.00           H  
+HETATM  206  HB3 DNE A  11      29.220  21.604  -0.567  1.00  1.00           H  
+HETATM  207  HG2 DNE A  11      28.792  19.548   0.707  1.00  1.00           H  
+HETATM  208  HG3 DNE A  11      28.429  20.487   2.161  1.00  1.00           H  
+HETATM  209  HD2 DNE A  11      26.371  19.685   1.172  1.00  1.00           H  
+HETATM  210  HD3 DNE A  11      26.428  21.451   1.070  1.00  1.00           H  
+HETATM  211  HE1 DNE A  11      27.049  21.318  -1.317  1.00  1.00           H  
+HETATM  212  HE2 DNE A  11      27.144  19.543  -1.211  1.00  1.00           H  
+HETATM  213  HE3 DNE A  11      25.585  20.369  -1.021  1.00  1.00           H  
+HETATM  214  N   NLO A  12      32.612  23.074   1.031  1.00  1.00           N  
+HETATM  215  CA  NLO A  12      33.504  24.120   0.544  1.00  1.00           C  
+HETATM  216  C   NLO A  12      33.805  23.875  -0.935  1.00  1.00           C  
+HETATM  217  O   NLO A  12      33.695  24.796  -1.740  1.00  1.00           O  
+HETATM  218  CB  NLO A  12      34.792  24.139   1.382  1.00  1.00           C  
+HETATM  219  CG  NLO A  12      35.725  25.318   1.084  1.00  1.00           C  
+HETATM  220  CD  NLO A  12      35.156  26.648   1.593  1.00  1.00           C  
+HETATM  221  CE  NLO A  12      36.182  27.768   1.409  1.00  1.00           C  
+HETATM  222  OXT NLO A  12      34.189  22.607  -1.254  1.00  1.00           O  
+HETATM  223  H   NLO A  12      32.956  22.403   1.708  1.00  1.00           H  
+HETATM  224  HA  NLO A  12      32.993  25.078   0.648  1.00  1.00           H  
+HETATM  225  HB2 NLO A  12      34.536  24.157   2.437  1.00  1.00           H  
+HETATM  226  HB3 NLO A  12      35.358  23.233   1.190  1.00  1.00           H  
+HETATM  227  HG2 NLO A  12      36.669  25.121   1.594  1.00  1.00           H  
+HETATM  228  HG3 NLO A  12      35.923  25.386   0.013  1.00  1.00           H  
+HETATM  229  HD2 NLO A  12      34.255  26.910   1.039  1.00  1.00           H  
+HETATM  230  HD3 NLO A  12      34.911  26.561   2.653  1.00  1.00           H  
+HETATM  231  HE1 NLO A  12      36.433  27.873   0.353  1.00  1.00           H  
+HETATM  232  HE2 NLO A  12      35.762  28.708   1.769  1.00  1.00           H  
+HETATM  233  HE3 NLO A  12      37.087  27.543   1.975  1.00  1.00           H  
+HETATM  234  HXT NLO A  12      34.324  22.070  -0.465  1.00  1.00           H  
+TER     235      NLO A  12                                                      
+ENDMDL                                                                          
+MODEL        4                                                                  
+HETATM    1  N   DNE A   1      29.098  15.277  11.396  1.00  1.00           N  
+HETATM    2  CA  DNE A   1      28.583  15.617  10.054  1.00  1.00           C  
+HETATM    3  C   DNE A   1      28.465  17.137   9.901  1.00  1.00           C  
+HETATM    4  O   DNE A   1      27.485  17.636   9.354  1.00  1.00           O  
+HETATM    5  CB  DNE A   1      29.521  15.022   8.993  1.00  1.00           C  
+HETATM    6  CG  DNE A   1      28.897  15.082   7.593  1.00  1.00           C  
+HETATM    7  CD  DNE A   1      29.912  14.625   6.542  1.00  1.00           C  
+HETATM    8  CE  DNE A   1      29.280  14.623   5.149  1.00  1.00           C  
+HETATM    9  H1  DNE A   1      29.112  14.260  11.526  1.00  1.00           H  
+HETATM   10  H2  DNE A   1      28.467  15.642  12.119  1.00  1.00           H  
+HETATM   11  HA  DNE A   1      27.591  15.176   9.941  1.00  1.00           H  
+HETATM   12  HB2 DNE A   1      30.466  15.568   8.997  1.00  1.00           H  
+HETATM   13  HB3 DNE A   1      29.722  13.976   9.232  1.00  1.00           H  
+HETATM   14  HG2 DNE A   1      28.020  14.434   7.561  1.00  1.00           H  
+HETATM   15  HG3 DNE A   1      28.590  16.102   7.360  1.00  1.00           H  
+HETATM   16  HD2 DNE A   1      30.763  15.308   6.546  1.00  1.00           H  
+HETATM   17  HD3 DNE A   1      30.263  13.619   6.778  1.00  1.00           H  
+HETATM   18  HE1 DNE A   1      28.914  15.620   4.903  1.00  1.00           H  
+HETATM   19  HE2 DNE A   1      30.027  14.330   4.411  1.00  1.00           H  
+HETATM   20  HE3 DNE A   1      28.449  13.917   5.117  1.00  1.00           H  
+HETATM   21  N   NLE A   2      29.477  17.862  10.382  1.00  1.00           N  
+HETATM   22  CA  NLE A   2      29.620  19.305  10.279  1.00  1.00           C  
+HETATM   23  C   NLE A   2      31.115  19.589  10.159  1.00  1.00           C  
+HETATM   24  O   NLE A   2      31.920  18.876  10.761  1.00  1.00           O  
+HETATM   25  CB  NLE A   2      29.053  20.001  11.525  1.00  1.00           C  
+HETATM   26  CG  NLE A   2      27.543  19.786  11.687  1.00  1.00           C  
+HETATM   27  CD  NLE A   2      27.007  20.631  12.846  1.00  1.00           C  
+HETATM   28  CE  NLE A   2      25.503  20.407  13.018  1.00  1.00           C  
+HETATM   29  H   NLE A   2      30.235  17.373  10.842  1.00  1.00           H  
+HETATM   30  HA  NLE A   2      29.104  19.676   9.392  1.00  1.00           H  
+HETATM   31  HB2 NLE A   2      29.568  19.632  12.414  1.00  1.00           H  
+HETATM   32  HB3 NLE A   2      29.246  21.071  11.433  1.00  1.00           H  
+HETATM   33  HG2 NLE A   2      27.035  20.072  10.764  1.00  1.00           H  
+HETATM   34  HG3 NLE A   2      27.341  18.735  11.894  1.00  1.00           H  
+HETATM   35  HD2 NLE A   2      27.517  20.351  13.769  1.00  1.00           H  
+HETATM   36  HD3 NLE A   2      27.189  21.688  12.646  1.00  1.00           H  
+HETATM   37  HE1 NLE A   2      25.136  21.016  13.845  1.00  1.00           H  
+HETATM   38  HE2 NLE A   2      24.977  20.692  12.106  1.00  1.00           H  
+HETATM   39  HE3 NLE A   2      25.304  19.357  13.235  1.00  1.00           H  
+HETATM   40  N   DNE A   3      31.504  20.612   9.400  1.00  1.00           N  
+HETATM   41  CA  DNE A   3      32.902  20.991   9.302  1.00  1.00           C  
+HETATM   42  C   DNE A   3      33.569  20.076   8.277  1.00  1.00           C  
+HETATM   43  O   DNE A   3      33.515  20.332   7.074  1.00  1.00           O  
+HETATM   44  CB  DNE A   3      33.039  22.476   8.943  1.00  1.00           C  
+HETATM   45  CG  DNE A   3      32.238  23.416   9.857  1.00  1.00           C  
+HETATM   46  CD  DNE A   3      32.557  23.276  11.352  1.00  1.00           C  
+HETATM   47  CE  DNE A   3      34.027  23.568  11.668  1.00  1.00           C  
+HETATM   48  H   DNE A   3      30.829  21.140   8.853  1.00  1.00           H  
+HETATM   49  HA  DNE A   3      33.396  20.847  10.264  1.00  1.00           H  
+HETATM   50  HB2 DNE A   3      34.093  22.745   8.981  1.00  1.00           H  
+HETATM   51  HB3 DNE A   3      32.696  22.626   7.924  1.00  1.00           H  
+HETATM   52  HG2 DNE A   3      32.442  24.444   9.552  1.00  1.00           H  
+HETATM   53  HG3 DNE A   3      31.172  23.235   9.712  1.00  1.00           H  
+HETATM   54  HD2 DNE A   3      31.942  23.993  11.897  1.00  1.00           H  
+HETATM   55  HD3 DNE A   3      32.297  22.277  11.703  1.00  1.00           H  
+HETATM   56  HE1 DNE A   3      34.172  23.549  12.749  1.00  1.00           H  
+HETATM   57  HE2 DNE A   3      34.676  22.818  11.219  1.00  1.00           H  
+HETATM   58  HE3 DNE A   3      34.298  24.555  11.293  1.00  1.00           H  
+HETATM   59  N   NLE A   4      34.192  18.999   8.753  1.00  1.00           N  
+HETATM   60  CA  NLE A   4      34.931  18.073   7.910  1.00  1.00           C  
+HETATM   61  C   NLE A   4      33.970  17.429   6.909  1.00  1.00           C  
+HETATM   62  O   NLE A   4      33.095  16.661   7.301  1.00  1.00           O  
+HETATM   63  CB  NLE A   4      35.631  17.014   8.775  1.00  1.00           C  
+HETATM   64  CG  NLE A   4      36.575  17.600   9.837  1.00  1.00           C  
+HETATM   65  CD  NLE A   4      37.695  18.453   9.228  1.00  1.00           C  
+HETATM   66  CE  NLE A   4      38.691  18.873  10.311  1.00  1.00           C  
+HETATM   67  H   NLE A   4      34.129  18.815   9.745  1.00  1.00           H  
+HETATM   68  HA  NLE A   4      35.688  18.626   7.354  1.00  1.00           H  
+HETATM   69  HB2 NLE A   4      34.874  16.414   9.283  1.00  1.00           H  
+HETATM   70  HB3 NLE A   4      36.202  16.353   8.121  1.00  1.00           H  
+HETATM   71  HG2 NLE A   4      36.012  18.200  10.552  1.00  1.00           H  
+HETATM   72  HG3 NLE A   4      37.026  16.766  10.376  1.00  1.00           H  
+HETATM   73  HD2 NLE A   4      38.222  17.878   8.465  1.00  1.00           H  
+HETATM   74  HD3 NLE A   4      37.280  19.355   8.778  1.00  1.00           H  
+HETATM   75  HE1 NLE A   4      39.477  19.485   9.866  1.00  1.00           H  
+HETATM   76  HE2 NLE A   4      38.182  19.454  11.081  1.00  1.00           H  
+HETATM   77  HE3 NLE A   4      39.144  17.991  10.767  1.00  1.00           H  
+HETATM   78  N   DNE A   5      34.122  17.763   5.625  1.00  1.00           N  
+HETATM   79  CA  DNE A   5      33.278  17.284   4.542  1.00  1.00           C  
+HETATM   80  C   DNE A   5      31.862  17.859   4.645  1.00  1.00           C  
+HETATM   81  O   DNE A   5      30.920  17.287   4.103  1.00  1.00           O  
+HETATM   82  CB  DNE A   5      33.306  15.752   4.400  1.00  1.00           C  
+HETATM   83  CG  DNE A   5      34.738  15.217   4.289  1.00  1.00           C  
+HETATM   84  CD  DNE A   5      34.728  13.720   3.969  1.00  1.00           C  
+HETATM   85  CE  DNE A   5      36.159  13.188   3.870  1.00  1.00           C  
+HETATM   86  H   DNE A   5      34.839  18.434   5.358  1.00  1.00           H  
+HETATM   87  HA  DNE A   5      33.699  17.697   3.634  1.00  1.00           H  
+HETATM   88  HB2 DNE A   5      32.806  15.278   5.244  1.00  1.00           H  
+HETATM   89  HB3 DNE A   5      32.761  15.482   3.494  1.00  1.00           H  
+HETATM   90  HG2 DNE A   5      35.267  15.749   3.498  1.00  1.00           H  
+HETATM   91  HG3 DNE A   5      35.257  15.369   5.236  1.00  1.00           H  
+HETATM   92  HD2 DNE A   5      34.199  13.182   4.757  1.00  1.00           H  
+HETATM   93  HD3 DNE A   5      34.217  13.550   3.019  1.00  1.00           H  
+HETATM   94  HE1 DNE A   5      36.136  12.122   3.641  1.00  1.00           H  
+HETATM   95  HE2 DNE A   5      36.697  13.710   3.078  1.00  1.00           H  
+HETATM   96  HE3 DNE A   5      36.678  13.337   4.817  1.00  1.00           H  
+HETATM   97  N   NLE A   6      31.717  19.002   5.318  1.00  1.00           N  
+HETATM   98  CA  NLE A   6      30.462  19.726   5.438  1.00  1.00           C  
+HETATM   99  C   NLE A   6      30.785  21.148   5.896  1.00  1.00           C  
+HETATM  100  O   NLE A   6      30.415  21.564   6.994  1.00  1.00           O  
+HETATM  101  CB  NLE A   6      29.506  18.972   6.380  1.00  1.00           C  
+HETATM  102  CG  NLE A   6      28.098  19.582   6.492  1.00  1.00           C  
+HETATM  103  CD  NLE A   6      27.378  19.792   5.152  1.00  1.00           C  
+HETATM  104  CE  NLE A   6      27.261  18.498   4.341  1.00  1.00           C  
+HETATM  105  H   NLE A   6      32.536  19.406   5.763  1.00  1.00           H  
+HETATM  106  HA  NLE A   6      30.016  19.784   4.445  1.00  1.00           H  
+HETATM  107  HB2 NLE A   6      29.392  17.948   6.029  1.00  1.00           H  
+HETATM  108  HB3 NLE A   6      29.956  18.925   7.370  1.00  1.00           H  
+HETATM  109  HG2 NLE A   6      27.490  18.912   7.101  1.00  1.00           H  
+HETATM  110  HG3 NLE A   6      28.145  20.540   7.010  1.00  1.00           H  
+HETATM  111  HD2 NLE A   6      26.371  20.153   5.366  1.00  1.00           H  
+HETATM  112  HD3 NLE A   6      27.887  20.555   4.563  1.00  1.00           H  
+HETATM  113  HE1 NLE A   6      28.243  18.159   4.009  1.00  1.00           H  
+HETATM  114  HE2 NLE A   6      26.797  17.720   4.948  1.00  1.00           H  
+HETATM  115  HE3 NLE A   6      26.641  18.679   3.462  1.00  1.00           H  
+HETATM  116  N   DNE A   7      31.496  21.886   5.036  1.00  1.00           N  
+HETATM  117  CA  DNE A   7      31.858  23.286   5.265  1.00  1.00           C  
+HETATM  118  C   DNE A   7      33.375  23.475   5.146  1.00  1.00           C  
+HETATM  119  O   DNE A   7      33.847  24.575   4.872  1.00  1.00           O  
+HETATM  120  CB  DNE A   7      31.111  24.188   4.271  1.00  1.00           C  
+HETATM  121  CG  DNE A   7      29.587  24.007   4.338  1.00  1.00           C  
+HETATM  122  CD  DNE A   7      28.855  24.866   3.299  1.00  1.00           C  
+HETATM  123  CE  DNE A   7      29.014  26.368   3.554  1.00  1.00           C  
+HETATM  124  H   DNE A   7      31.808  21.440   4.175  1.00  1.00           H  
+HETATM  125  HA  DNE A   7      31.571  23.601   6.267  1.00  1.00           H  
+HETATM  126  HB2 DNE A   7      31.357  25.223   4.510  1.00  1.00           H  
+HETATM  127  HB3 DNE A   7      31.459  23.978   3.263  1.00  1.00           H  
+HETATM  128  HG2 DNE A   7      29.330  22.967   4.137  1.00  1.00           H  
+HETATM  129  HG3 DNE A   7      29.233  24.261   5.339  1.00  1.00           H  
+HETATM  130  HD2 DNE A   7      29.222  24.631   2.299  1.00  1.00           H  
+HETATM  131  HD3 DNE A   7      27.792  24.622   3.342  1.00  1.00           H  
+HETATM  132  HE1 DNE A   7      30.044  26.680   3.385  1.00  1.00           H  
+HETATM  133  HE2 DNE A   7      28.371  26.917   2.866  1.00  1.00           H  
+HETATM  134  HE3 DNE A   7      28.723  26.607   4.577  1.00  1.00           H  
+HETATM  135  N   NLE A   8      34.133  22.393   5.329  1.00  1.00           N  
+HETATM  136  CA  NLE A   8      35.556  22.284   5.044  1.00  1.00           C  
+HETATM  137  C   NLE A   8      35.726  21.028   4.181  1.00  1.00           C  
+HETATM  138  O   NLE A   8      34.979  20.071   4.385  1.00  1.00           O  
+HETATM  139  CB  NLE A   8      36.350  22.177   6.354  1.00  1.00           C  
+HETATM  140  CG  NLE A   8      36.343  23.508   7.114  1.00  1.00           C  
+HETATM  141  CD  NLE A   8      37.094  23.364   8.441  1.00  1.00           C  
+HETATM  142  CE  NLE A   8      37.067  24.685   9.213  1.00  1.00           C  
+HETATM  143  H   NLE A   8      33.684  21.544   5.660  1.00  1.00           H  
+HETATM  144  HA  NLE A   8      35.876  23.162   4.483  1.00  1.00           H  
+HETATM  145  HB2 NLE A   8      35.921  21.392   6.976  1.00  1.00           H  
+HETATM  146  HB3 NLE A   8      37.384  21.907   6.135  1.00  1.00           H  
+HETATM  147  HG2 NLE A   8      36.826  24.273   6.505  1.00  1.00           H  
+HETATM  148  HG3 NLE A   8      35.317  23.818   7.310  1.00  1.00           H  
+HETATM  149  HD2 NLE A   8      36.626  22.587   9.048  1.00  1.00           H  
+HETATM  150  HD3 NLE A   8      38.130  23.084   8.248  1.00  1.00           H  
+HETATM  151  HE1 NLE A   8      37.594  24.565  10.160  1.00  1.00           H  
+HETATM  152  HE2 NLE A   8      37.556  25.466   8.630  1.00  1.00           H  
+HETATM  153  HE3 NLE A   8      36.037  24.979   9.413  1.00  1.00           H  
+HETATM  154  C   DNM A   9      35.242  20.015   1.450  1.00  1.00           C  
+HETATM  155  N   DNM A   9      36.667  20.995   3.220  1.00  1.00           N  
+HETATM  156  O   DNM A   9      34.901  21.025   0.836  1.00  1.00           O  
+HETATM  157  C1  DNM A   9      37.723  21.996   3.063  1.00  1.00           C  
+HETATM  158  CA  DNM A   9      36.604  19.985   2.159  1.00  1.00           C  
+HETATM  159  CB  DNM A   9      37.032  18.594   2.669  1.00  1.00           C  
+HETATM  160  CD  DNM A   9      38.889  17.242   3.769  1.00  1.00           C  
+HETATM  161  CE  DNM A   9      38.212  16.891   5.098  1.00  1.00           C  
+HETATM  162  CG  DNM A   9      38.455  18.617   3.246  1.00  1.00           C  
+HETATM  163  HA  DNM A   9      37.296  20.287   1.380  1.00  1.00           H  
+HETATM  164  HB  DNM A   9      37.013  17.893   1.833  1.00  1.00           H  
+HETATM  165  HBA DNM A   9      36.338  18.243   3.430  1.00  1.00           H  
+HETATM  166  H1  DNM A   9      37.433  22.713   2.296  1.00  1.00           H  
+HETATM  167  H1A DNM A   9      38.648  21.514   2.746  1.00  1.00           H  
+HETATM  168  H1B DNM A   9      37.943  22.524   3.989  1.00  1.00           H  
+HETATM  169  HD  DNM A   9      39.967  17.261   3.935  1.00  1.00           H  
+HETATM  170  HDA DNM A   9      38.669  16.473   3.026  1.00  1.00           H  
+HETATM  171  HE  DNM A   9      38.443  17.652   5.844  1.00  1.00           H  
+HETATM  172  HEA DNM A   9      37.133  16.824   4.977  1.00  1.00           H  
+HETATM  173  HEB DNM A   9      38.585  15.928   5.448  1.00  1.00           H  
+HETATM  174  HG  DNM A   9      38.526  19.338   4.061  1.00  1.00           H  
+HETATM  175  HGA DNM A   9      39.143  18.917   2.455  1.00  1.00           H  
+HETATM  176  N   NLE A  10      34.449  18.944   1.500  1.00  1.00           N  
+HETATM  177  CA  NLE A  10      33.134  18.961   0.870  1.00  1.00           C  
+HETATM  178  C   NLE A  10      32.268  20.071   1.485  1.00  1.00           C  
+HETATM  179  O   NLE A  10      32.498  20.535   2.605  1.00  1.00           O  
+HETATM  180  CB  NLE A  10      32.466  17.580   0.911  1.00  1.00           C  
+HETATM  181  CG  NLE A  10      33.368  16.443   0.405  1.00  1.00           C  
+HETATM  182  CD  NLE A  10      33.884  16.631  -1.029  1.00  1.00           C  
+HETATM  183  CE  NLE A  10      32.751  16.756  -2.051  1.00  1.00           C  
+HETATM  184  H   NLE A  10      34.758  18.121   1.989  1.00  1.00           H  
+HETATM  185  HA  NLE A  10      33.280  19.221  -0.179  1.00  1.00           H  
+HETATM  186  HB2 NLE A  10      32.173  17.351   1.930  1.00  1.00           H  
+HETATM  187  HB3 NLE A  10      31.552  17.610   0.317  1.00  1.00           H  
+HETATM  188  HG2 NLE A  10      34.229  16.336   1.066  1.00  1.00           H  
+HETATM  189  HG3 NLE A  10      32.799  15.513   0.449  1.00  1.00           H  
+HETATM  190  HD2 NLE A  10      34.530  17.508  -1.088  1.00  1.00           H  
+HETATM  191  HD3 NLE A  10      34.483  15.756  -1.288  1.00  1.00           H  
+HETATM  192  HE1 NLE A  10      32.195  17.681  -1.902  1.00  1.00           H  
+HETATM  193  HE2 NLE A  10      33.174  16.765  -3.056  1.00  1.00           H  
+HETATM  194  HE3 NLE A  10      32.073  15.906  -1.962  1.00  1.00           H  
+HETATM  195  N   DNE A  11      31.294  20.557   0.719  1.00  1.00           N  
+HETATM  196  CA  DNE A  11      30.552  21.760   1.070  1.00  1.00           C  
+HETATM  197  C   DNE A  11      31.361  22.976   0.602  1.00  1.00           C  
+HETATM  198  O   DNE A  11      30.858  23.809  -0.146  1.00  1.00           O  
+HETATM  199  CB  DNE A  11      29.153  21.705   0.439  1.00  1.00           C  
+HETATM  200  CG  DNE A  11      28.363  20.493   0.954  1.00  1.00           C  
+HETATM  201  CD  DNE A  11      26.893  20.532   0.520  1.00  1.00           C  
+HETATM  202  CE  DNE A  11      26.730  20.445  -1.001  1.00  1.00           C  
+HETATM  203  H   DNE A  11      31.082  20.106  -0.157  1.00  1.00           H  
+HETATM  204  HA  DNE A  11      30.426  21.832   2.151  1.00  1.00           H  
+HETATM  205  HB2 DNE A  11      28.615  22.617   0.704  1.00  1.00           H  
+HETATM  206  HB3 DNE A  11      29.250  21.658  -0.646  1.00  1.00           H  
+HETATM  207  HG2 DNE A  11      28.817  19.568   0.596  1.00  1.00           H  
+HETATM  208  HG3 DNE A  11      28.393  20.491   2.044  1.00  1.00           H  
+HETATM  209  HD2 DNE A  11      26.379  19.682   0.970  1.00  1.00           H  
+HETATM  210  HD3 DNE A  11      26.426  21.449   0.882  1.00  1.00           H  
+HETATM  211  HE1 DNE A  11      27.131  21.337  -1.481  1.00  1.00           H  
+HETATM  212  HE2 DNE A  11      27.246  19.563  -1.382  1.00  1.00           H  
+HETATM  213  HE3 DNE A  11      25.670  20.367  -1.244  1.00  1.00           H  
+HETATM  214  N   NLO A  12      32.628  23.071   1.026  1.00  1.00           N  
+HETATM  215  CA  NLO A  12      33.515  24.147   0.596  1.00  1.00           C  
+HETATM  216  C   NLO A  12      33.875  23.961  -0.879  1.00  1.00           C  
+HETATM  217  O   NLO A  12      33.810  24.916  -1.647  1.00  1.00           O  
+HETATM  218  CB  NLO A  12      34.764  24.196   1.489  1.00  1.00           C  
+HETATM  219  CG  NLO A  12      35.667  25.385   1.144  1.00  1.00           C  
+HETATM  220  CD  NLO A  12      36.531  25.789   2.343  1.00  1.00           C  
+HETATM  221  CE  NLO A  12      37.442  26.962   1.973  1.00  1.00           C  
+HETATM  222  OXT NLO A  12      34.255  22.704  -1.237  1.00  1.00           O  
+HETATM  223  H   NLO A  12      32.982  22.363   1.659  1.00  1.00           H  
+HETATM  224  HA  NLO A  12      32.984  25.095   0.705  1.00  1.00           H  
+HETATM  225  HB2 NLO A  12      34.446  24.268   2.523  1.00  1.00           H  
+HETATM  226  HB3 NLO A  12      35.354  23.291   1.386  1.00  1.00           H  
+HETATM  227  HG2 NLO A  12      36.310  25.096   0.309  1.00  1.00           H  
+HETATM  228  HG3 NLO A  12      35.058  26.243   0.853  1.00  1.00           H  
+HETATM  229  HD2 NLO A  12      35.887  26.089   3.172  1.00  1.00           H  
+HETATM  230  HD3 NLO A  12      37.148  24.951   2.662  1.00  1.00           H  
+HETATM  231  HE1 NLO A  12      36.840  27.820   1.670  1.00  1.00           H  
+HETATM  232  HE2 NLO A  12      38.046  27.240   2.837  1.00  1.00           H  
+HETATM  233  HE3 NLO A  12      38.102  26.677   1.153  1.00  1.00           H  
+HETATM  234  HXT NLO A  12      34.336  22.137  -0.462  1.00  1.00           H  
+TER     235      NLO A  12                                                      
+ENDMDL                                                                          
+MODEL        5                                                                  
+HETATM    1  N   DNE A   1      29.055  15.377  11.370  1.00  1.00           N  
+HETATM    2  CA  DNE A   1      28.550  15.731  10.028  1.00  1.00           C  
+HETATM    3  C   DNE A   1      28.474  17.253   9.876  1.00  1.00           C  
+HETATM    4  O   DNE A   1      27.506  17.780   9.332  1.00  1.00           O  
+HETATM    5  CB  DNE A   1      29.472  15.112   8.967  1.00  1.00           C  
+HETATM    6  CG  DNE A   1      28.854  15.194   7.566  1.00  1.00           C  
+HETATM    7  CD  DNE A   1      29.859  14.712   6.516  1.00  1.00           C  
+HETATM    8  CE  DNE A   1      29.229  14.730   5.121  1.00  1.00           C  
+HETATM    9  H1  DNE A   1      29.042  14.359  11.499  1.00  1.00           H  
+HETATM   10  H2  DNE A   1      28.433  15.757  12.093  1.00  1.00           H  
+HETATM   11  HA  DNE A   1      27.547  15.317   9.913  1.00  1.00           H  
+HETATM   12  HB2 DNE A   1      30.433  15.631   8.975  1.00  1.00           H  
+HETATM   13  HB3 DNE A   1      29.644  14.061   9.204  1.00  1.00           H  
+HETATM   14  HG2 DNE A   1      27.959  14.570   7.530  1.00  1.00           H  
+HETATM   15  HG3 DNE A   1      28.575  16.222   7.335  1.00  1.00           H  
+HETATM   16  HD2 DNE A   1      30.727  15.373   6.523  1.00  1.00           H  
+HETATM   17  HD3 DNE A   1      30.182  13.697   6.750  1.00  1.00           H  
+HETATM   18  HE1 DNE A   1      28.892  15.737   4.877  1.00  1.00           H  
+HETATM   19  HE2 DNE A   1      29.970  14.419   4.385  1.00  1.00           H  
+HETATM   20  HE3 DNE A   1      28.380  14.047   5.086  1.00  1.00           H  
+HETATM   21  N   NLE A   2      29.507  17.950  10.353  1.00  1.00           N  
+HETATM   22  CA  NLE A   2      29.692  19.388  10.248  1.00  1.00           C  
+HETATM   23  C   NLE A   2      31.195  19.628  10.129  1.00  1.00           C  
+HETATM   24  O   NLE A   2      31.978  18.891  10.730  1.00  1.00           O  
+HETATM   25  CB  NLE A   2      29.145  20.104  11.492  1.00  1.00           C  
+HETATM   26  CG  NLE A   2      27.629  19.936  11.652  1.00  1.00           C  
+HETATM   27  CD  NLE A   2      27.118  20.800  12.809  1.00  1.00           C  
+HETATM   28  CE  NLE A   2      25.608  20.624  12.980  1.00  1.00           C  
+HETATM   29  H   NLE A   2      30.252  17.440  10.812  1.00  1.00           H  
+HETATM   30  HA  NLE A   2      29.188  19.772   9.359  1.00  1.00           H  
+HETATM   31  HB2 NLE A   2      29.648  19.721  12.382  1.00  1.00           H  
+HETATM   32  HB3 NLE A   2      29.370  21.167  11.398  1.00  1.00           H  
+HETATM   33  HG2 NLE A   2      27.131  20.235  10.729  1.00  1.00           H  
+HETATM   34  HG3 NLE A   2      27.395  18.892  11.863  1.00  1.00           H  
+HETATM   35  HD2 NLE A   2      27.619  20.507  13.733  1.00  1.00           H  
+HETATM   36  HD3 NLE A   2      27.333  21.850  12.606  1.00  1.00           H  
+HETATM   37  HE1 NLE A   2      25.260  21.247  13.805  1.00  1.00           H  
+HETATM   38  HE2 NLE A   2      25.092  20.922  12.067  1.00  1.00           H  
+HETATM   39  HE3 NLE A   2      25.377  19.581  13.200  1.00  1.00           H  
+HETATM   40  N   DNE A   3      31.613  20.639   9.370  1.00  1.00           N  
+HETATM   41  CA  DNE A   3      33.021  20.980   9.276  1.00  1.00           C  
+HETATM   42  C   DNE A   3      33.665  20.050   8.249  1.00  1.00           C  
+HETATM   43  O   DNE A   3      33.618  20.310   7.047  1.00  1.00           O  
+HETATM   44  CB  DNE A   3      33.202  22.462   8.926  1.00  1.00           C  
+HETATM   45  CG  DNE A   3      32.397  23.420   9.817  1.00  1.00           C  
+HETATM   46  CD  DNE A   3      32.755  23.280  11.301  1.00  1.00           C  
+HETATM   47  CE  DNE A   3      32.028  24.345  12.125  1.00  1.00           C  
+HETATM   48  H   DNE A   3      30.955  21.187   8.822  1.00  1.00           H  
+HETATM   49  HA  DNE A   3      33.508  20.819  10.239  1.00  1.00           H  
+HETATM   50  HB2 DNE A   3      34.259  22.706   9.016  1.00  1.00           H  
+HETATM   51  HB3 DNE A   3      32.901  22.625   7.895  1.00  1.00           H  
+HETATM   52  HG2 DNE A   3      32.618  24.439   9.497  1.00  1.00           H  
+HETATM   53  HG3 DNE A   3      31.328  23.248   9.681  1.00  1.00           H  
+HETATM   54  HD2 DNE A   3      32.456  22.298  11.668  1.00  1.00           H  
+HETATM   55  HD3 DNE A   3      33.831  23.400  11.432  1.00  1.00           H  
+HETATM   56  HE1 DNE A   3      32.286  24.229  13.178  1.00  1.00           H  
+HETATM   57  HE2 DNE A   3      32.326  25.341  11.794  1.00  1.00           H  
+HETATM   58  HE3 DNE A   3      30.950  24.234  12.009  1.00  1.00           H  
+HETATM   59  N   NLE A   4      34.258  18.956   8.723  1.00  1.00           N  
+HETATM   60  CA  NLE A   4      34.971  18.010   7.878  1.00  1.00           C  
+HETATM   61  C   NLE A   4      33.991  17.398   6.875  1.00  1.00           C  
+HETATM   62  O   NLE A   4      33.093  16.656   7.265  1.00  1.00           O  
+HETATM   63  CB  NLE A   4      35.639  16.929   8.741  1.00  1.00           C  
+HETATM   64  CG  NLE A   4      36.594  17.484   9.809  1.00  1.00           C  
+HETATM   65  CD  NLE A   4      37.742  18.306   9.211  1.00  1.00           C  
+HETATM   66  CE  NLE A   4      38.739  18.701  10.302  1.00  1.00           C  
+HETATM   67  H   NLE A   4      34.190  18.770   9.714  1.00  1.00           H  
+HETATM   68  HA  NLE A   4      35.744  18.543   7.324  1.00  1.00           H  
+HETATM   69  HB2 NLE A   4      34.864  16.348   9.244  1.00  1.00           H  
+HETATM   70  HB3 NLE A   4      36.194  16.255   8.086  1.00  1.00           H  
+HETATM   71  HG2 NLE A   4      36.045  18.097  10.525  1.00  1.00           H  
+HETATM   72  HG3 NLE A   4      37.017  16.635  10.348  1.00  1.00           H  
+HETATM   73  HD2 NLE A   4      38.260  17.716   8.454  1.00  1.00           H  
+HETATM   74  HD3 NLE A   4      37.355  19.218   8.755  1.00  1.00           H  
+HETATM   75  HE1 NLE A   4      39.544  19.291   9.863  1.00  1.00           H  
+HETATM   76  HE2 NLE A   4      38.238  19.297  11.066  1.00  1.00           H  
+HETATM   77  HE3 NLE A   4      39.163  17.808  10.763  1.00  1.00           H  
+HETATM   78  N   DNE A   5      34.155  17.727   5.591  1.00  1.00           N  
+HETATM   79  CA  DNE A   5      33.296  17.274   4.508  1.00  1.00           C  
+HETATM   80  C   DNE A   5      31.897  17.890   4.611  1.00  1.00           C  
+HETATM   81  O   DNE A   5      30.939  17.349   4.066  1.00  1.00           O  
+HETATM   82  CB  DNE A   5      33.279  15.742   4.365  1.00  1.00           C  
+HETATM   83  CG  DNE A   5      34.695  15.165   4.255  1.00  1.00           C  
+HETATM   84  CD  DNE A   5      34.640  13.670   3.928  1.00  1.00           C  
+HETATM   85  CE  DNE A   5      36.054  13.095   3.830  1.00  1.00           C  
+HETATM   86  H   DNE A   5      34.892  18.375   5.323  1.00  1.00           H  
+HETATM   87  HA  DNE A   5      33.729  17.675   3.600  1.00  1.00           H  
+HETATM   88  HB2 DNE A   5      32.764  15.282   5.208  1.00  1.00           H  
+HETATM   89  HB3 DNE A   5      32.727  15.489   3.459  1.00  1.00           H  
+HETATM   90  HG2 DNE A   5      35.242  15.684   3.467  1.00  1.00           H  
+HETATM   91  HG3 DNE A   5      35.216  15.297   5.203  1.00  1.00           H  
+HETATM   92  HD2 DNE A   5      34.093  13.145   4.714  1.00  1.00           H  
+HETATM   93  HD3 DNE A   5      34.126  13.519   2.977  1.00  1.00           H  
+HETATM   94  HE1 DNE A   5      35.999  12.031   3.598  1.00  1.00           H  
+HETATM   95  HE2 DNE A   5      36.610  13.603   3.041  1.00  1.00           H  
+HETATM   96  HE3 DNE A   5      36.576  13.224   4.779  1.00  1.00           H  
+HETATM   97  N   NLE A   6      31.786  19.036   5.286  1.00  1.00           N  
+HETATM   98  CA  NLE A   6      30.553  19.795   5.410  1.00  1.00           C  
+HETATM   99  C   NLE A   6      30.919  21.207   5.867  1.00  1.00           C  
+HETATM  100  O   NLE A   6      30.562  21.635   6.966  1.00  1.00           O  
+HETATM  101  CB  NLE A   6      29.581  19.068   6.357  1.00  1.00           C  
+HETATM  102  CG  NLE A   6      28.190  19.717   6.477  1.00  1.00           C  
+HETATM  103  CD  NLE A   6      27.466  19.936   5.142  1.00  1.00           C  
+HETATM  104  CE  NLE A   6      27.308  18.640   4.341  1.00  1.00           C  
+HETATM  105  H   NLE A   6      32.616  19.415   5.732  1.00  1.00           H  
+HETATM  106  HA  NLE A   6      30.103  19.866   4.419  1.00  1.00           H  
+HETATM  107  HB2 NLE A   6      29.438  18.047   6.008  1.00  1.00           H  
+HETATM  108  HB3 NLE A   6      30.035  19.009   7.344  1.00  1.00           H  
+HETATM  109  HG2 NLE A   6      27.570  19.067   7.095  1.00  1.00           H  
+HETATM  110  HG3 NLE A   6      28.266  20.676   6.988  1.00  1.00           H  
+HETATM  111  HD2 NLE A   6      26.470  20.325   5.362  1.00  1.00           H  
+HETATM  112  HD3 NLE A   6      27.989  20.681   4.543  1.00  1.00           H  
+HETATM  113  HE1 NLE A   6      26.680  18.829   3.470  1.00  1.00           H  
+HETATM  114  HE2 NLE A   6      28.277  18.277   3.999  1.00  1.00           H  
+HETATM  115  HE3 NLE A   6      26.834  17.877   4.960  1.00  1.00           H  
+HETATM  116  N   DNE A   7      31.652  21.923   5.008  1.00  1.00           N  
+HETATM  117  CA  DNE A   7      32.060  23.310   5.241  1.00  1.00           C  
+HETATM  118  C   DNE A   7      33.582  23.449   5.109  1.00  1.00           C  
+HETATM  119  O   DNE A   7      34.087  24.531   4.824  1.00  1.00           O  
+HETATM  120  CB  DNE A   7      31.332  24.242   4.260  1.00  1.00           C  
+HETATM  121  CG  DNE A   7      29.804  24.109   4.340  1.00  1.00           C  
+HETATM  122  CD  DNE A   7      29.091  24.988   3.304  1.00  1.00           C  
+HETATM  123  CE  DNE A   7      29.313  26.484   3.542  1.00  1.00           C  
+HETATM  124  H   DNE A   7      31.951  21.470   4.146  1.00  1.00           H  
+HETATM  125  HA  DNE A   7      31.791  23.630   6.246  1.00  1.00           H  
+HETATM  126  HB2 DNE A   7      31.614  25.267   4.502  1.00  1.00           H  
+HETATM  127  HB3 DNE A   7      31.663  24.027   3.247  1.00  1.00           H  
+HETATM  128  HG2 DNE A   7      29.512  23.078   4.144  1.00  1.00           H  
+HETATM  129  HG3 DNE A   7      29.468  24.378   5.343  1.00  1.00           H  
+HETATM  130  HD2 DNE A   7      29.434  24.729   2.301  1.00  1.00           H  
+HETATM  131  HD3 DNE A   7      28.021  24.786   3.364  1.00  1.00           H  
+HETATM  132  HE1 DNE A   7      29.047  26.743   4.567  1.00  1.00           H  
+HETATM  133  HE2 DNE A   7      30.352  26.754   3.355  1.00  1.00           H  
+HETATM  134  HE3 DNE A   7      28.681  27.052   2.858  1.00  1.00           H  
+HETATM  135  N   NLE A   8      34.306  22.345   5.294  1.00  1.00           N  
+HETATM  136  CA  NLE A   8      35.725  22.188   5.009  1.00  1.00           C  
+HETATM  137  C   NLE A   8      35.849  20.938   4.128  1.00  1.00           C  
+HETATM  138  O   NLE A   8      35.079  20.000   4.333  1.00  1.00           O  
+HETATM  139  CB  NLE A   8      36.510  22.027   6.319  1.00  1.00           C  
+HETATM  140  CG  NLE A   8      36.527  23.334   7.118  1.00  1.00           C  
+HETATM  141  CD  NLE A   8      37.259  23.132   8.448  1.00  1.00           C  
+HETATM  142  CE  NLE A   8      37.234  24.420   9.273  1.00  1.00           C  
+HETATM  143  H   NLE A   8      33.832  21.511   5.629  1.00  1.00           H  
+HETATM  144  HA  NLE A   8      36.084  23.064   4.469  1.00  1.00           H  
+HETATM  145  HB2 NLE A   8      36.060  21.234   6.916  1.00  1.00           H  
+HETATM  146  HB3 NLE A   8      37.538  21.741   6.098  1.00  1.00           H  
+HETATM  147  HG2 NLE A   8      37.035  24.106   6.537  1.00  1.00           H  
+HETATM  148  HG3 NLE A   8      35.507  23.664   7.312  1.00  1.00           H  
+HETATM  149  HD2 NLE A   8      36.777  22.336   9.018  1.00  1.00           H  
+HETATM  150  HD3 NLE A   8      38.296  22.850   8.256  1.00  1.00           H  
+HETATM  151  HE1 NLE A   8      37.762  24.261  10.214  1.00  1.00           H  
+HETATM  152  HE2 NLE A   8      37.724  25.224   8.722  1.00  1.00           H  
+HETATM  153  HE3 NLE A   8      36.204  24.706   9.488  1.00  1.00           H  
+HETATM  154  C   DNM A   9      35.358  19.926   1.378  1.00  1.00           C  
+HETATM  155  N   DNM A   9      36.778  20.893   3.155  1.00  1.00           N  
+HETATM  156  O   DNM A   9      35.065  20.926   0.722  1.00  1.00           O  
+HETATM  157  C1  DNM A   9      37.821  21.908   2.997  1.00  1.00           C  
+HETATM  158  CA  DNM A   9      36.708  19.862   2.110  1.00  1.00           C  
+HETATM  159  CB  DNM A   9      37.081  18.469   2.656  1.00  1.00           C  
+HETATM  160  CD  DNM A   9      38.871  17.097   3.839  1.00  1.00           C  
+HETATM  161  CE  DNM A   9      38.160  16.821   5.168  1.00  1.00           C  
+HETATM  162  CG  DNM A   9      38.493  18.466   3.258  1.00  1.00           C  
+HETATM  163  HA  DNM A   9      37.436  20.099   1.340  1.00  1.00           H  
+HETATM  164  HB  DNM A   9      37.058  17.753   1.833  1.00  1.00           H  
+HETATM  165  HBA DNM A   9      36.364  18.149   3.408  1.00  1.00           H  
+HETATM  166  H1  DNM A   9      37.428  22.763   2.449  1.00  1.00           H  
+HETATM  167  H1A DNM A   9      38.676  21.509   2.450  1.00  1.00           H  
+HETATM  168  H1B DNM A   9      38.195  22.245   3.963  1.00  1.00           H  
+HETATM  169  HD  DNM A   9      39.946  17.087   4.024  1.00  1.00           H  
+HETATM  170  HDA DNM A   9      38.636  16.310   3.121  1.00  1.00           H  
+HETATM  171  HE  DNM A   9      38.497  15.862   5.563  1.00  1.00           H  
+HETATM  172  HEA DNM A   9      38.401  17.604   5.887  1.00  1.00           H  
+HETATM  173  HEB DNM A   9      37.082  16.780   5.030  1.00  1.00           H  
+HETATM  174  HG  DNM A   9      38.577  19.215   4.047  1.00  1.00           H  
+HETATM  175  HGA DNM A   9      39.204  18.715   2.469  1.00  1.00           H  
+HETATM  176  N   NLE A  10      34.519  18.892   1.459  1.00  1.00           N  
+HETATM  177  CA  NLE A  10      33.204  18.948   0.832  1.00  1.00           C  
+HETATM  178  C   NLE A  10      32.369  20.080   1.452  1.00  1.00           C  
+HETATM  179  O   NLE A  10      32.646  20.572   2.550  1.00  1.00           O  
+HETATM  180  CB  NLE A  10      32.495  17.587   0.874  1.00  1.00           C  
+HETATM  181  CG  NLE A  10      33.361  16.421   0.371  1.00  1.00           C  
+HETATM  182  CD  NLE A  10      33.895  16.596  -1.057  1.00  1.00           C  
+HETATM  183  CE  NLE A  10      32.775  16.758  -2.089  1.00  1.00           C  
+HETATM  184  H   NLE A  10      34.792  18.072   1.973  1.00  1.00           H  
+HETATM  185  HA  NLE A  10      33.351  19.206  -0.218  1.00  1.00           H  
+HETATM  186  HB2 NLE A  10      32.193  17.368   1.893  1.00  1.00           H  
+HETATM  187  HB3 NLE A  10      31.584  17.643   0.278  1.00  1.00           H  
+HETATM  188  HG2 NLE A  10      34.211  16.281   1.040  1.00  1.00           H  
+HETATM  189  HG3 NLE A  10      32.759  15.511   0.407  1.00  1.00           H  
+HETATM  190  HD2 NLE A  10      34.568  17.452  -1.109  1.00  1.00           H  
+HETATM  191  HD3 NLE A  10      34.468  15.704  -1.315  1.00  1.00           H  
+HETATM  192  HE1 NLE A  10      32.245  17.699  -1.940  1.00  1.00           H  
+HETATM  193  HE2 NLE A  10      33.207  16.759  -3.090  1.00  1.00           H  
+HETATM  194  HE3 NLE A  10      32.071  15.929  -2.008  1.00  1.00           H  
+HETATM  195  N   DNE A  11      31.362  20.549   0.718  1.00  1.00           N  
+HETATM  196  CA  DNE A  11      30.629  21.755   1.080  1.00  1.00           C  
+HETATM  197  C   DNE A  11      31.438  22.970   0.606  1.00  1.00           C  
+HETATM  198  O   DNE A  11      30.935  23.800  -0.145  1.00  1.00           O  
+HETATM  199  CB  DNE A  11      29.225  21.709   0.461  1.00  1.00           C  
+HETATM  200  CG  DNE A  11      28.435  20.494   0.968  1.00  1.00           C  
+HETATM  201  CD  DNE A  11      26.961  20.544   0.547  1.00  1.00           C  
+HETATM  202  CE  DNE A  11      26.785  20.479  -0.973  1.00  1.00           C  
+HETATM  203  H   DNE A  11      31.116  20.081  -0.140  1.00  1.00           H  
+HETATM  204  HA  DNE A  11      30.514  21.823   2.162  1.00  1.00           H  
+HETATM  205  HB2 DNE A  11      28.692  22.620   0.739  1.00  1.00           H  
+HETATM  206  HB3 DNE A  11      29.312  21.673  -0.626  1.00  1.00           H  
+HETATM  207  HG2 DNE A  11      28.882  19.571   0.596  1.00  1.00           H  
+HETATM  208  HG3 DNE A  11      28.475  20.479   2.058  1.00  1.00           H  
+HETATM  209  HD2 DNE A  11      26.448  19.689   0.990  1.00  1.00           H  
+HETATM  210  HD3 DNE A  11      26.500  21.457   0.927  1.00  1.00           H  
+HETATM  211  HE1 DNE A  11      27.183  21.378  -1.443  1.00  1.00           H  
+HETATM  212  HE2 DNE A  11      27.296  19.602  -1.371  1.00  1.00           H  
+HETATM  213  HE3 DNE A  11      25.723  20.407  -1.208  1.00  1.00           H  
+HETATM  214  N   NLO A  12      32.705  23.063   1.029  1.00  1.00           N  
+HETATM  215  CA  NLO A  12      33.601  24.125   0.584  1.00  1.00           C  
+HETATM  216  C   NLO A  12      33.902  23.933  -0.904  1.00  1.00           C  
+HETATM  217  O   NLO A  12      33.794  24.882  -1.675  1.00  1.00           O  
+HETATM  218  CB  NLO A  12      34.888  24.108   1.421  1.00  1.00           C  
+HETATM  219  CG  NLO A  12      35.825  25.295   1.172  1.00  1.00           C  
+HETATM  220  CD  NLO A  12      35.269  26.600   1.755  1.00  1.00           C  
+HETATM  221  CE  NLO A  12      36.295  27.726   1.607  1.00  1.00           C  
+HETATM  222  OXT NLO A  12      34.282  22.676  -1.267  1.00  1.00           O  
+HETATM  223  H   NLO A  12      33.050  22.360   1.674  1.00  1.00           H  
+HETATM  224  HA  NLO A  12      33.093  25.080   0.722  1.00  1.00           H  
+HETATM  225  HB2 NLO A  12      34.632  24.082   2.476  1.00  1.00           H  
+HETATM  226  HB3 NLO A  12      35.456  23.212   1.192  1.00  1.00           H  
+HETATM  227  HG2 NLO A  12      36.774  25.065   1.661  1.00  1.00           H  
+HETATM  228  HG3 NLO A  12      36.012  25.416   0.105  1.00  1.00           H  
+HETATM  229  HD2 NLO A  12      34.358  26.889   1.231  1.00  1.00           H  
+HETATM  230  HD3 NLO A  12      35.043  26.463   2.814  1.00  1.00           H  
+HETATM  231  HE1 NLO A  12      36.526  27.882   0.552  1.00  1.00           H  
+HETATM  232  HE2 NLO A  12      35.884  28.648   2.020  1.00  1.00           H  
+HETATM  233  HE3 NLO A  12      37.209  27.472   2.144  1.00  1.00           H  
+HETATM  234  HXT NLO A  12      34.413  22.112  -0.497  1.00  1.00           H  
+TER     235      NLO A  12                                                      
+ENDMDL                                                                          
+CONECT    1    2   10                                                           
+CONECT    2    1    3    5   11                                                 
+CONECT    3    2    4   21                                                      
+CONECT    4    3                                                                
+CONECT    5    2    6   12   13                                                 
+CONECT    6    5    7   14   15                                                 
+CONECT    7    6    8   16   17                                                 
+CONECT    8    7   18   19   20                                                 
+CONECT   10    1                                                                
+CONECT   11    2                                                                
+CONECT   12    5                                                                
+CONECT   13    5                                                                
+CONECT   14    6                                                                
+CONECT   15    6                                                                
+CONECT   16    7                                                                
+CONECT   17    7                                                                
+CONECT   18    8                                                                
+CONECT   19    8                                                                
+CONECT   20    8                                                                
+CONECT   21    3   22   29                                                      
+CONECT   22   21   23   25   30                                                 
+CONECT   23   22   24   40                                                      
+CONECT   24   23                                                                
+CONECT   25   22   26   31   32                                                 
+CONECT   26   25   27   33   34                                                 
+CONECT   27   26   28   35   36                                                 
+CONECT   28   27   37   38   39                                                 
+CONECT   29   21                                                                
+CONECT   30   22                                                                
+CONECT   31   25                                                                
+CONECT   32   25                                                                
+CONECT   33   26                                                                
+CONECT   34   26                                                                
+CONECT   35   27                                                                
+CONECT   36   27                                                                
+CONECT   37   28                                                                
+CONECT   38   28                                                                
+CONECT   39   28                                                                
+CONECT   40   23   41   48                                                      
+CONECT   41   40   42   44   49                                                 
+CONECT   42   41   43   59                                                      
+CONECT   43   42                                                                
+CONECT   44   41   45   50   51                                                 
+CONECT   45   44   46   52   53                                                 
+CONECT   46   45   47   54   55                                                 
+CONECT   47   46   56   57   58                                                 
+CONECT   48   40                                                                
+CONECT   49   41                                                                
+CONECT   50   44                                                                
+CONECT   51   44                                                                
+CONECT   52   45                                                                
+CONECT   53   45                                                                
+CONECT   54   46                                                                
+CONECT   55   46                                                                
+CONECT   56   47                                                                
+CONECT   57   47                                                                
+CONECT   58   47                                                                
+CONECT   59   42   60   67                                                      
+CONECT   60   59   61   63   68                                                 
+CONECT   61   60   62   78                                                      
+CONECT   62   61                                                                
+CONECT   63   60   64   69   70                                                 
+CONECT   64   63   65   71   72                                                 
+CONECT   65   64   66   73   74                                                 
+CONECT   66   65   75   76   77                                                 
+CONECT   67   59                                                                
+CONECT   68   60                                                                
+CONECT   69   63                                                                
+CONECT   70   63                                                                
+CONECT   71   64                                                                
+CONECT   72   64                                                                
+CONECT   73   65                                                                
+CONECT   74   65                                                                
+CONECT   75   66                                                                
+CONECT   76   66                                                                
+CONECT   77   66                                                                
+CONECT   78   61   79   86                                                      
+CONECT   79   78   80   82   87                                                 
+CONECT   80   79   81   97                                                      
+CONECT   81   80                                                                
+CONECT   82   79   83   88   89                                                 
+CONECT   83   82   84   90   91                                                 
+CONECT   84   83   85   92   93                                                 
+CONECT   85   84   94   95   96                                                 
+CONECT   86   78                                                                
+CONECT   87   79                                                                
+CONECT   88   82                                                                
+CONECT   89   82                                                                
+CONECT   90   83                                                                
+CONECT   91   83                                                                
+CONECT   92   84                                                                
+CONECT   93   84                                                                
+CONECT   94   85                                                                
+CONECT   95   85                                                                
+CONECT   96   85                                                                
+CONECT   97   80   98  105                                                      
+CONECT   98   97   99  101  106                                                 
+CONECT   99   98  100  116                                                      
+CONECT  100   99                                                                
+CONECT  101   98  102  107  108                                                 
+CONECT  102  101  103  109  110                                                 
+CONECT  103  102  104  111  112                                                 
+CONECT  104  103  113  114  115                                                 
+CONECT  105   97                                                                
+CONECT  106   98                                                                
+CONECT  107  101                                                                
+CONECT  108  101                                                                
+CONECT  109  102                                                                
+CONECT  110  102                                                                
+CONECT  111  103                                                                
+CONECT  112  103                                                                
+CONECT  113  104                                                                
+CONECT  114  104                                                                
+CONECT  115  104                                                                
+CONECT  116   99  117  124                                                      
+CONECT  117  116  118  120  125                                                 
+CONECT  118  117  119  135                                                      
+CONECT  119  118                                                                
+CONECT  120  117  121  126  127                                                 
+CONECT  121  120  122  128  129                                                 
+CONECT  122  121  123  130  131                                                 
+CONECT  123  122  132  133  134                                                 
+CONECT  124  116                                                                
+CONECT  125  117                                                                
+CONECT  126  120                                                                
+CONECT  127  120                                                                
+CONECT  128  121                                                                
+CONECT  129  121                                                                
+CONECT  130  122                                                                
+CONECT  131  122                                                                
+CONECT  132  123                                                                
+CONECT  133  123                                                                
+CONECT  134  123                                                                
+CONECT  135  118  136  143                                                      
+CONECT  136  135  137  139  144                                                 
+CONECT  137  136  138  155                                                      
+CONECT  138  137                                                                
+CONECT  139  136  140  145  146                                                 
+CONECT  140  139  141  147  148                                                 
+CONECT  141  140  142  149  150                                                 
+CONECT  142  141  151  152  153                                                 
+CONECT  143  135                                                                
+CONECT  144  136                                                                
+CONECT  145  139                                                                
+CONECT  146  139                                                                
+CONECT  147  140                                                                
+CONECT  148  140                                                                
+CONECT  149  141                                                                
+CONECT  150  141                                                                
+CONECT  151  142                                                                
+CONECT  152  142                                                                
+CONECT  153  142                                                                
+CONECT  154  156  158  176                                                      
+CONECT  155  137  157  158                                                      
+CONECT  156  154                                                                
+CONECT  157  155  166  167  168                                                 
+CONECT  158  154  155  159  163                                                 
+CONECT  159  158  162  164  165                                                 
+CONECT  160  161  162  169  170                                                 
+CONECT  161  160  171  172  173                                                 
+CONECT  162  159  160  174  175                                                 
+CONECT  163  158                                                                
+CONECT  164  159                                                                
+CONECT  165  159                                                                
+CONECT  166  157                                                                
+CONECT  167  157                                                                
+CONECT  168  157                                                                
+CONECT  169  160                                                                
+CONECT  170  160                                                                
+CONECT  171  161                                                                
+CONECT  172  161                                                                
+CONECT  173  161                                                                
+CONECT  174  162                                                                
+CONECT  175  162                                                                
+CONECT  176  154  177  184                                                      
+CONECT  177  176  178  180  185                                                 
+CONECT  178  177  179  195                                                      
+CONECT  179  178                                                                
+CONECT  180  177  181  186  187                                                 
+CONECT  181  180  182  188  189                                                 
+CONECT  182  181  183  190  191                                                 
+CONECT  183  182  192  193  194                                                 
+CONECT  184  176                                                                
+CONECT  185  177                                                                
+CONECT  186  180                                                                
+CONECT  187  180                                                                
+CONECT  188  181                                                                
+CONECT  189  181                                                                
+CONECT  190  182                                                                
+CONECT  191  182                                                                
+CONECT  192  183                                                                
+CONECT  193  183                                                                
+CONECT  194  183                                                                
+CONECT  195  178  196  203                                                      
+CONECT  196  195  197  199  204                                                 
+CONECT  197  196  198  214                                                      
+CONECT  198  197                                                                
+CONECT  199  196  200  205  206                                                 
+CONECT  200  199  201  207  208                                                 
+CONECT  201  200  202  209  210                                                 
+CONECT  202  201  211  212  213                                                 
+CONECT  203  195                                                                
+CONECT  204  196                                                                
+CONECT  205  199                                                                
+CONECT  206  199                                                                
+CONECT  207  200                                                                
+CONECT  208  200                                                                
+CONECT  209  201                                                                
+CONECT  210  201                                                                
+CONECT  211  202                                                                
+CONECT  212  202                                                                
+CONECT  213  202                                                                
+CONECT  214  197  215  223                                                      
+CONECT  215  214  216  218  224                                                 
+CONECT  216  215  217  222                                                      
+CONECT  217  216                                                                
+CONECT  218  215  219  225  226                                                 
+CONECT  219  218  220  227  228                                                 
+CONECT  220  219  221  229  230                                                 
+CONECT  221  220  231  232  233                                                 
+CONECT  222  216                                                                
+CONECT  223  214                                                                
+CONECT  224  215                                                                
+CONECT  225  218                                                                
+CONECT  226  218                                                                
+CONECT  227  219                                                                
+CONECT  228  219                                                                
+CONECT  229  220                                                                
+CONECT  230  220                                                                
+CONECT  231  221                                                                
+CONECT  232  221                                                                
+CONECT  233  221                                                                
+MASTER      116    0   12    0    2    0    0    6   98    1  232    1          
+END                                                                             
